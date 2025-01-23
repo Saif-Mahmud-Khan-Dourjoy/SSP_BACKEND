@@ -1,0 +1,28 @@
+[08-Jan-2025 22:53:53 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php on line 7
+[14-Jan-2025 14:54:05 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php on line 7
+[14-Jan-2025 22:51:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php on line 7
+[15-Jan-2025 01:50:32 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php on line 7
+[16-Jan-2025 15:09:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php on line 7
+[16-Jan-2025 23:56:53 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[16-Jan-2025 23:56:53 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[16-Jan-2025 23:57:47 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[16-Jan-2025 23:57:47 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[16-Jan-2025 23:57:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/tests/TestCase.php on line 7

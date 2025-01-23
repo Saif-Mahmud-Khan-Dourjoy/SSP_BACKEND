@@ -1,0 +1,8 @@
+[15-Jan-2025 04:17:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Controller.php on line 10
+[15-Jan-2025 10:12:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Controller.php on line 10

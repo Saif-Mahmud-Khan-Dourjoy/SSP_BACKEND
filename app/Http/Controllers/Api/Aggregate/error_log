@@ -1,0 +1,948 @@
+[15-Jan-2025 10:47:57 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_filter_group.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_filter_group.php on line 7
+[15-Jan-2025 10:48:16 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_misc_tasks.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_misc_tasks.php on line 7
+[15-Jan-2025 10:49:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_data_model.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_data_model.php on line 7
+[15-Jan-2025 10:49:53 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_backend_actions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_backend_actions.php on line 7
+[15-Jan-2025 10:50:28 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info.php on line 7
+[15-Jan-2025 10:50:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_results.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_results.php on line 7
+[15-Jan-2025 10:51:06 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_core.php on line 7
+[15-Jan-2025 10:51:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_registered_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_registered_users.php on line 7
+[15-Jan-2025 10:51:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_service_cursor_2.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_service_cursor_2.php on line 7
+[15-Jan-2025 10:52:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_security_revisions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_security_revisions.php on line 7
+[15-Jan-2025 10:52:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_fileset.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_fileset.php on line 7
+[15-Jan-2025 10:54:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_bin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_bin.php on line 7
+[15-Jan-2025 10:54:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core_test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core_test.php on line 7
+[15-Jan-2025 10:55:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_ref.php on line 7
+[15-Jan-2025 10:56:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_server_preferences_properties.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_server_preferences_properties.php on line 7
+[15-Jan-2025 10:56:46 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_blb.php on line 7
+[15-Jan-2025 10:57:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_core.php on line 7
+[15-Jan-2025 10:57:42 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core.php on line 7
+[15-Jan-2025 10:58:20 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_ref.php on line 7
+[15-Jan-2025 10:58:58 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_core_test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_core_test.php on line 7
+[15-Jan-2025 10:59:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_bin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_bin.php on line 7
+[15-Jan-2025 10:59:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Odk_b39_2022_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Odk_b39_2022_core.php on line 7
+[15-Jan-2025 11:00:32 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_blb.php on line 7
+[15-Jan-2025 11:00:51 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_core.php on line 7
+[15-Jan-2025 11:01:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_user_granted_authority.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_user_granted_authority.php on line 7
+[15-Jan-2025 11:02:06 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core.php on line 7
+[15-Jan-2025 11:02:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_bin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_bin.php on line 7
+[15-Jan-2025 11:02:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_ref.php on line 7
+[15-Jan-2025 11:03:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_plantngplngplntnggnrsry_spp_repeat.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_plantngplngplntnggnrsry_spp_repeat.php on line 7
+[15-Jan-2025 11:11:51 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core_audit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core_audit.php on line 7
+[15-Jan-2025 11:30:05 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_issues_others_ques.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_issues_others_ques.php on line 7
+[15-Jan-2025 11:30:24 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_core_audit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_core_audit.php on line 7
+[15-Jan-2025 11:33:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_s_site.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_s_site.php on line 7
+[15-Jan-2025 12:07:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_blb.php on line 7
+[15-Jan-2025 12:43:08 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_bn.php on line 7
+[15-Jan-2025 12:43:34 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_granted_authority_hierarchy.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_granted_authority_hierarchy.php on line 7
+[15-Jan-2025 12:44:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core_audit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core_audit.php on line 7
+[15-Jan-2025 12:44:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_bin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_bin.php on line 7
+[15-Jan-2025 12:44:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_n_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_n_bn.php on line 7
+[15-Jan-2025 12:44:43 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_ref.php on line 7
+[15-Jan-2025 12:45:09 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_user_granted_authority.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_user_granted_authority.php on line 7
+[15-Jan-2025 12:45:39 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_blb.php on line 7
+[15-Jan-2025 12:45:52 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_composts_pit_composts_pit_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_composts_pit_composts_pit_month.php on line 7
+[15-Jan-2025 12:46:05 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_e_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_e_bn.php on line 7
+[15-Jan-2025 12:46:18 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_ref.php on line 7
+[15-Jan-2025 12:47:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_xpictureextra_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_xpictureextra_bn.php on line 7
+[15-Jan-2025 12:47:14 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_xpictureextra_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_xpictureextra_blb.php on line 7
+[15-Jan-2025 12:47:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_s_site.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_s_site.php on line 7
+[15-Jan-2025 12:47:53 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_rphotoextra.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_rphotoextra.php on line 7
+[15-Jan-2025 13:00:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_granted_authority_hierarchy.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_granted_authority_hierarchy.php on line 7
+[15-Jan-2025 13:08:13 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_ref.php on line 7
+[15-Jan-2025 13:15:28 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_others_info1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_others_info1.php on line 7
+[15-Jan-2025 13:15:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_submission_association.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_submission_association.php on line 7
+[15-Jan-2025 13:15:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_security_revisions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_security_revisions.php on line 7
+[15-Jan-2025 13:16:09 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_bn.php on line 7
+[15-Jan-2025 13:16:13 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_blb.php on line 7
+[15-Jan-2025 13:16:24 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_blb.php on line 7
+[15-Jan-2025 13:16:53 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_service_cursor_2.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_service_cursor_2.php on line 7
+[15-Jan-2025 13:17:21 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_blb.php on line 7
+[15-Jan-2025 13:17:34 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_ref.php on line 7
+[15-Jan-2025 13:17:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_fbli_m_sh1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_fbli_m_sh1.php on line 7
+[15-Jan-2025 13:18:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_bn.php on line 7
+[15-Jan-2025 13:40:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_bn.php on line 7
+[15-Jan-2025 13:43:45 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_bn.php on line 7
+[15-Jan-2025 13:45:32 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_s_site.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_s_site.php on line 7
+[15-Jan-2025 13:46:37 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_location_data_m_sh1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_location_data_m_sh1.php on line 7
+[15-Jan-2025 13:55:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_ref.php on line 7
+[15-Jan-2025 13:55:57 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_w_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_w_bn.php on line 7
+[15-Jan-2025 13:57:43 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_nuersery_raising_nursery_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_nuersery_raising_nursery_month.php on line 7
+[15-Jan-2025 13:58:14 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_weeding.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_weeding.php on line 7
+[15-Jan-2025 13:58:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_ref.php on line 7
+[15-Jan-2025 13:58:40 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info.php on line 7
+[15-Jan-2025 13:58:53 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_blb.php on line 7
+[15-Jan-2025 13:59:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_server_preferences_properties.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_server_preferences_properties.php on line 7
+[15-Jan-2025 13:59:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_backend_actions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_backend_actions.php on line 7
+[15-Jan-2025 14:00:02 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_core.php on line 7
+[15-Jan-2025 14:00:19 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_bn.php on line 7
+[15-Jan-2025 14:00:32 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_plantngplngplntnggnrsry_spp_repeat.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_plantngplngplntnggnrsry_spp_repeat.php on line 7
+[15-Jan-2025 14:00:46 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_xform_blb.php on line 7
+[15-Jan-2025 14:01:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_core_audit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_core_audit.php on line 7
+[15-Jan-2025 14:01:40 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_fileset.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_fileset.php on line 7
+[15-Jan-2025 14:01:53 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_picture_blb.php on line 7
+[15-Jan-2025 14:02:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_e_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_e_blb.php on line 7
+[15-Jan-2025 14:02:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_s_site.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_s_site.php on line 7
+[15-Jan-2025 14:02:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_ref.php on line 7
+[15-Jan-2025 14:03:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_e_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_e_ref.php on line 7
+[15-Jan-2025 14:03:24 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_issues_others_ques.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_issues_others_ques.php on line 7
+[15-Jan-2025 14:03:39 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_bin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_manifest_bin.php on line 7
+[15-Jan-2025 14:03:55 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Odk_b39_2022_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Odk_b39_2022_core.php on line 7
+[15-Jan-2025 14:04:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_misc_tasks.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_misc_tasks.php on line 7
+[15-Jan-2025 14:04:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_location_data_m_sh1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_location_data_m_sh1.php on line 7
+[15-Jan-2025 14:05:10 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core.php on line 7
+[15-Jan-2025 14:05:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_bin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_result_file_bin.php on line 7
+[15-Jan-2025 14:05:37 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_bn.php on line 7
+[15-Jan-2025 14:05:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_core.php on line 7
+[15-Jan-2025 14:06:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_results.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_persistent_results.php on line 7
+[15-Jan-2025 14:06:19 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core_test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core_test.php on line 7
+[15-Jan-2025 14:06:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_gnatissues.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_gnatissues.php on line 7
+[15-Jan-2025 14:07:16 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core_test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core_test.php on line 7
+[15-Jan-2025 14:07:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_data_model.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_data_model.php on line 7
+[15-Jan-2025 14:07:43 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_bn.php on line 7
+[15-Jan-2025 14:07:45 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_rphotoextra.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_rphotoextra.php on line 7
+[15-Jan-2025 14:08:38 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_bn.php on line 7
+[15-Jan-2025 14:09:18 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_overallnotes_ima_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_overallnotes_ima_ref.php on line 7
+[15-Jan-2025 14:10:24 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_e_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_e_bn.php on line 7
+[15-Jan-2025 14:11:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_ref.php on line 7
+[15-Jan-2025 14:20:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_community_protection.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_community_protection.php on line 7
+[15-Jan-2025 14:46:43 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_ref.php on line 7
+[15-Jan-2025 14:51:38 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_n_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_n_ref.php on line 7
+[15-Jan-2025 14:51:50 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gr_regen.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gr_regen.php on line 7
+[15-Jan-2025 14:52:02 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_w_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_w_ref.php on line 7
+[15-Jan-2025 14:52:19 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_planting_planting_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_planting_planting_month.php on line 7
+[15-Jan-2025 14:52:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_e_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_e_ref.php on line 7
+[15-Jan-2025 14:52:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_planting_plan_gplanting_gspp.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_planting_plan_gplanting_gspp.php on line 7
+[15-Jan-2025 14:52:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_compost_compost_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_compost_compost_month.php on line 7
+[15-Jan-2025 14:52:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_blb.php on line 7
+[15-Jan-2025 14:53:29 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref.php on line 7
+[15-Jan-2025 14:53:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_overallnotes_ima_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_overallnotes_ima_blb.php on line 7
+[15-Jan-2025 14:54:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gr_regen.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gr_regen.php on line 7
+[15-Jan-2025 14:54:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_gvillages.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_gvillages.php on line 7
+[15-Jan-2025 14:54:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_compost_compost_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_compost_compost_month.php on line 7
+[15-Jan-2025 14:54:37 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_climber_cutting_climber_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_climber_cutting_climber_month.php on line 7
+[15-Jan-2025 14:54:49 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_plantation_site_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_plantation_site_month.php on line 7
+[15-Jan-2025 14:55:13 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_overallnotes_ima_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_overallnotes_ima_bn.php on line 7
+[15-Jan-2025 14:55:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_bn.php on line 7
+[15-Jan-2025 14:55:42 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gr_regen.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gr_regen.php on line 7
+[15-Jan-2025 14:55:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_overallnotes_ima_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_overallnotes_ima_bn.php on line 7
+[15-Jan-2025 14:56:06 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_nuersery_raising_nursery_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_nuersery_raising_nursery_month.php on line 7
+[15-Jan-2025 14:56:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_vacancy_filling_filling_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_vacancy_filling_filling_month.php on line 7
+[15-Jan-2025 14:56:36 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_overallnotes_ima_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_overallnotes_ima_ref.php on line 7
+[15-Jan-2025 14:57:05 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_other_treatment_other_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_other_treatment_other_month.php on line 7
+[15-Jan-2025 14:57:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gsit_cological_attrbtes_land_cov_desc_image_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gsit_cological_attrbtes_land_cov_desc_image_blb.php on line 7
+[15-Jan-2025 14:57:36 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_blb.php on line 7
+[15-Jan-2025 14:58:04 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_beat_index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_beat_index.php on line 7
+[15-Jan-2025 14:58:16 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb.php on line 7
+[15-Jan-2025 14:58:28 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_xpictureextra_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_xpictureextra_bn.php on line 7
+[15-Jan-2025 14:58:43 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref.php on line 7
+[15-Jan-2025 14:58:55 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_spp_regen.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_spp_regen.php on line 7
+[15-Jan-2025 14:59:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_location_data_m_sh1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_location_data_m_sh1.php on line 7
+[15-Jan-2025 14:59:31 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_w_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_w_bn.php on line 7
+[15-Jan-2025 14:59:43 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_attendence_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_attendence_blb.php on line 7
+[15-Jan-2025 15:00:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_pit_digging_digging_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_pit_digging_digging_month.php on line 7
+[15-Jan-2025 15:00:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_notes_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_notes_ref.php on line 7
+[15-Jan-2025 15:00:32 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_community_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_community_month.php on line 7
+[15-Jan-2025 15:00:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core_audit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core_audit.php on line 7
+[15-Jan-2025 15:01:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_weeding.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_weeding.php on line 7
+[15-Jan-2025 15:01:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb.php on line 7
+[15-Jan-2025 15:01:29 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_attendence_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_attendence_ref.php on line 7
+[15-Jan-2025 15:01:58 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_commnty_protcton_community_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_commnty_protcton_community_month.php on line 7
+[15-Jan-2025 15:02:13 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_overallnotes_ima_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_overallnotes_ima_bn.php on line 7
+[15-Jan-2025 15:02:29 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_rphotoextra.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_rphotoextra.php on line 7
+[15-Jan-2025 15:02:55 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_s_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_s_bn.php on line 7
+[15-Jan-2025 15:03:10 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_layout_layout_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_layout_layout_month.php on line 7
+[15-Jan-2025 15:03:24 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_cleaning_cutting_cutting_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_cleaning_cutting_cutting_month.php on line 7
+[15-Jan-2025 15:03:38 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_stakeholder_engagement.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_stakeholder_engagement.php on line 7
+[15-Jan-2025 15:03:52 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_spp_regen.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_spp_regen.php on line 7
+[15-Jan-2025 15:04:21 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_n_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_n_blb.php on line 7
+[15-Jan-2025 15:04:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_e_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_e_blb.php on line 7
+[15-Jan-2025 15:04:50 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_e_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_e_ref.php on line 7
+[15-Jan-2025 15:05:04 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_climber_cutting_climber_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_climber_cutting_climber_month.php on line 7
+[15-Jan-2025 15:05:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_n_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_n_bn.php on line 7
+[15-Jan-2025 15:05:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_overallnotes_ima_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_overallnotes_ima_ref.php on line 7
+[15-Jan-2025 15:06:01 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb.php on line 7
+[15-Jan-2025 15:06:18 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_e_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_e_bn.php on line 7
+[15-Jan-2025 15:06:57 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb.php on line 7
+[15-Jan-2025 15:07:09 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_other_treatment_other_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_other_treatment_other_month.php on line 7
+[15-Jan-2025 15:07:21 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_fbli_ca_tloc_ad_upzilla.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_fbli_ca_tloc_ad_upzilla.php on line 7
+[15-Jan-2025 15:07:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_location_data_ca_tloc_ad_upzilla.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_location_data_ca_tloc_ad_upzilla.php on line 7
+[15-Jan-2025 15:07:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_overallnotes_ima_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_overallnotes_ima_blb.php on line 7
+[15-Jan-2025 15:07:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref.php on line 7
+[15-Jan-2025 15:08:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_vacancy_filling.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_vacancy_filling.php on line 7
+[15-Jan-2025 15:08:34 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_xpictureextra_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_xpictureextra_blb.php on line 7
+[15-Jan-2025 15:08:46 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_photo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_photo.php on line 7
+[15-Jan-2025 15:08:58 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_xpictureextra_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_xpictureextra_ref.php on line 7
+[15-Jan-2025 15:09:29 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_w_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_w_blb.php on line 7
+[15-Jan-2025 15:09:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_attendence_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_attendence_bn.php on line 7
+[15-Jan-2025 15:09:53 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_planting_plan_gplanting_gspp.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_planting_plan_gplanting_gspp.php on line 7
+[15-Jan-2025 15:10:21 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_s_blb.php on line 7
+[15-Jan-2025 15:16:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_ref.php on line 7
+[15-Jan-2025 15:16:52 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_others_info1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_others_info1.php on line 7
+[15-Jan-2025 16:05:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_filter_group.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_filter_group.php on line 7
+[15-Jan-2025 16:32:14 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gsit_cological_attrbtes_land_cov_desc_image_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gsit_cological_attrbtes_land_cov_desc_image_bn.php on line 7
+[15-Jan-2025 17:08:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_notes_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_notes_blb.php on line 7
+[15-Jan-2025 17:10:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_ref.php on line 7
+[15-Jan-2025 17:36:50 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_notes_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_notes_bn.php on line 7
+[15-Jan-2025 18:41:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gsit_cological_attrbtes_land_cov_desc_image_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gsit_cological_attrbtes_land_cov_desc_image_ref.php on line 7
+[15-Jan-2025 19:58:36 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_filling_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_filling_month.php on line 7
+[15-Jan-2025 20:15:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_xpictureextra_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_xpictureextra_ref.php on line 7
+[15-Jan-2025 20:19:43 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_xpictureextra_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_xpictureextra_bn.php on line 7
+[15-Jan-2025 20:24:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_e_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_e_blb.php on line 7
+[15-Jan-2025 20:25:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_bn.php on line 7
+[15-Jan-2025 20:26:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_w_blb.php on line 7
+[15-Jan-2025 20:44:39 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_nuersery_raising_nursery_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_nuersery_raising_nursery_month.php on line 7
+[15-Jan-2025 20:45:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_ref.php on line 7
+[15-Jan-2025 20:46:51 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_gnatissues.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_gnatissues.php on line 7
+[15-Jan-2025 20:50:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_weeding_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_weeding_month.php on line 7
+[15-Jan-2025 20:59:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_submission_association.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_form_info_submission_association.php on line 7
+[15-Jan-2025 21:00:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_w_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_w_bn.php on line 7
+[15-Jan-2025 21:00:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_core.php on line 7
+[15-Jan-2025 21:01:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_weeding.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_weeding.php on line 7
+[15-Jan-2025 21:06:04 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_composts_pit_composts_pit_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_composts_pit_composts_pit_month.php on line 7
+[15-Jan-2025 21:07:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_fbli_m_sh1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_fbli_m_sh1.php on line 7
+[15-Jan-2025 21:08:20 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_e_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_e_bn.php on line 7
+[15-Jan-2025 21:15:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core_test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core_test.php on line 7
+[15-Jan-2025 21:16:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_n_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_n_bn.php on line 7
+[15-Jan-2025 21:30:57 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_ref.php on line 7
+[15-Jan-2025 21:33:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_blb.php on line 7
+[15-Jan-2025 21:42:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_ref.php on line 7
+[15-Jan-2025 21:43:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_planting_planting_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_planting_planting_month.php on line 7
+[15-Jan-2025 21:51:18 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_bn.php on line 7
+[15-Jan-2025 21:53:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_xpictureextra_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_xpictureextra_blb.php on line 7
+[15-Jan-2025 21:58:05 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_overallnotes_ima_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_overallnotes_ima_ref.php on line 7
+[15-Jan-2025 22:05:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_ghumissues.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_ghumissues.php on line 7
+[15-Jan-2025 22:10:31 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_overallnotes_ima_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_overallnotes_ima_bn.php on line 7
+[15-Jan-2025 22:15:02 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_w_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_w_ref.php on line 7
+[15-Jan-2025 22:16:10 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_notes_bn.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_notes_bn.php on line 7
+[15-Jan-2025 22:27:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_e_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_e_ref.php on line 7
+[15-Jan-2025 22:41:37 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_stakeholder_engagement.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_stakeholder_engagement.php on line 7
+[15-Jan-2025 22:50:52 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_n_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_n_ref.php on line 7
+[15-Jan-2025 23:02:26 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_gvillages.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_gvillages.php on line 7
+[15-Jan-2025 23:20:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_nuersery_raising_nursery_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_gtrts_nuersery_raising_nursery_month.php on line 7
+[15-Jan-2025 23:25:34 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core_audit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_core_audit.php on line 7
+[15-Jan-2025 23:27:52 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_xpic_beat_index_blb.php on line 7
+[15-Jan-2025 23:30:11 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_overallnotes_ima_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_overallnotes_ima_blb.php on line 7
+[15-Jan-2025 23:37:08 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_other_treatment_other_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gtrts_other_treatment_other_month.php on line 7
+[15-Jan-2025 23:41:45 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_location_data_m_sh1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_location_data_m_sh1.php on line 7
+[15-Jan-2025 23:51:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_photo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_consultation_photo.php on line 7
+[15-Jan-2025 23:55:38 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_notes_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Com202021_conslttn_ttndnc_pctre_consultation_notes_ref.php on line 7
+[15-Jan-2025 23:57:57 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_location_data_ca_tloc_ad_upzilla.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_location_data_ca_tloc_ad_upzilla.php on line 7
+[16-Jan-2025 04:01:32 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_ghumissues.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Gener43_2021_ghumissues.php on line 7
+[16-Jan-2025 06:39:10 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_gregen_reg_cen_to_n_blb.php on line 7
+[16-Jan-2025 07:00:28 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_registered_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/_registered_users.php on line 7
+[16-Jan-2025 07:12:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_core.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_core.php on line 7
+[16-Jan-2025 07:52:21 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_ref.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_ref.php on line 7
+[16-Jan-2025 08:08:18 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_blb.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal_13_2021_gregen_gregen_plot_reg_cen_to_s_blb.php on line 7
+[16-Jan-2025 09:39:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_weeding_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Sufal192020_weeding_month.php on line 7
+[16-Jan-2025 09:42:58 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_weeding_month.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aggregate/Plant27_2021_weeding_month.php on line 7

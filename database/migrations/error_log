@@ -1,0 +1,12 @@
+[15-Jan-2025 03:52:20 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[15-Jan-2025 03:53:14 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[15-Jan-2025 13:36:39 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/migrations/2014_10_12_000000_create_users_table.php on line 7

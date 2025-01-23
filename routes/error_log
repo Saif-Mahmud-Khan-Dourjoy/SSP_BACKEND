@@ -1,0 +1,138 @@
+[08-Jan-2025 09:11:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php on line 108
+[08-Jan-2025 09:11:34 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php on line 16
+[08-Jan-2025 09:11:46 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php on line 17
+[08-Jan-2025 09:12:18 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php on line 15
+[08-Jan-2025 22:54:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php on line 15
+[08-Jan-2025 22:55:01 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php on line 108
+[08-Jan-2025 22:55:14 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php on line 17
+[08-Jan-2025 22:55:49 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php on line 16
+[14-Jan-2025 11:19:05 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php on line 15
+[14-Jan-2025 11:30:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php on line 16
+[14-Jan-2025 13:22:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php on line 108
+[14-Jan-2025 14:04:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php on line 108
+[14-Jan-2025 14:19:42 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php on line 17
+[14-Jan-2025 14:40:55 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php on line 15
+[14-Jan-2025 19:05:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php on line 17
+[14-Jan-2025 22:22:02 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php on line 108
+[14-Jan-2025 22:36:42 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php on line 17
+[15-Jan-2025 00:41:50 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php on line 15
+[15-Jan-2025 02:05:51 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php on line 16
+[15-Jan-2025 02:17:37 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php on line 16
+[15-Jan-2025 02:19:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php on line 16
+[15-Jan-2025 02:20:28 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php on line 108
+[15-Jan-2025 02:20:55 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php on line 15
+[15-Jan-2025 02:21:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php on line 17
+[16-Jan-2025 11:20:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php on line 15
+[16-Jan-2025 11:24:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php on line 16
+[16-Jan-2025 15:53:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php on line 108
+[16-Jan-2025 22:37:48 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[16-Jan-2025 22:37:48 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[16-Jan-2025 22:37:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php on line 17
+[17-Jan-2025 00:14:54 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:14:54 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:14:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/web.php on line 15
+[17-Jan-2025 00:15:49 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:15:49 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:15:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/channels.php on line 16
+[17-Jan-2025 00:16:43 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:16:43 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:16:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/console.php on line 17
+[17-Jan-2025 00:18:30 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:18:30 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:18:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/routes/api.php on line 108

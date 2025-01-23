@@ -1,0 +1,44 @@
+[15-Jan-2025 07:04:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/TrimStrings.php on line 7
+[15-Jan-2025 07:30:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/Authenticate.php on line 7
+[15-Jan-2025 09:34:24 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/TrimStrings.php on line 7
+[15-Jan-2025 10:09:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/CheckForMaintenanceMode.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/CheckForMaintenanceMode.php on line 7
+[15-Jan-2025 10:09:52 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/TrustProxies.php on line 8
+[15-Jan-2025 10:10:42 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/Authenticate.php on line 7
+[15-Jan-2025 10:11:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[15-Jan-2025 10:11:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/EncryptCookies.php on line 7
+[15-Jan-2025 12:44:13 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[15-Jan-2025 13:01:06 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/EncryptCookies.php on line 7
+[15-Jan-2025 21:40:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/CheckForMaintenanceMode.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Middleware/CheckForMaintenanceMode.php on line 7

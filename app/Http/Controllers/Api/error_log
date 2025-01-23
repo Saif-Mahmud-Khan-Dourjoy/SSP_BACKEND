@@ -1,0 +1,546 @@
+[15-Jan-2025 10:18:16 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Origins.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Origins.php on line 7
+[15-Jan-2025 10:18:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Division_test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Division_test.php on line 7
+[15-Jan-2025 10:19:06 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites_bk.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites_bk.php on line 7
+[15-Jan-2025 10:19:34 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Age_plantations.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Age_plantations.php on line 7
+[15-Jan-2025 10:20:24 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Nursery_location.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Nursery_location.php on line 7
+[15-Jan-2025 10:20:58 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Gpx_file_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Gpx_file_lists.php on line 7
+[15-Jan-2025 10:21:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_ranges.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_ranges.php on line 7
+[15-Jan-2025 10:21:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Pct10_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Pct10_lists.php on line 7
+[15-Jan-2025 10:22:37 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Team_invitations.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Team_invitations.php on line 7
+[15-Jan-2025 10:23:02 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_beats.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_beats.php on line 7
+[15-Jan-2025 10:23:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_divisions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_divisions.php on line 8
+[15-Jan-2025 10:24:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Inundations.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Inundations.php on line 7
+[15-Jan-2025 10:24:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_upazila_boundary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_upazila_boundary.php on line 7
+[15-Jan-2025 10:25:11 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Treesperha_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Treesperha_lists.php on line 7
+[15-Jan-2025 10:25:32 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Human_issues.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Human_issues.php on line 7
+[15-Jan-2025 10:25:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Teams.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Teams.php on line 7
+[15-Jan-2025 10:26:08 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Sources.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Sources.php on line 7
+[15-Jan-2025 10:26:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Plot_types.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Plot_types.php on line 7
+[15-Jan-2025 10:26:38 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Yes_no_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Yes_no_lists.php on line 7
+[15-Jan-2025 10:26:52 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Landcover_class_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Landcover_class_lists.php on line 7
+[15-Jan-2025 10:27:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Record_points.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Record_points.php on line 7
+[15-Jan-2025 10:27:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Logistic_conditions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Logistic_conditions.php on line 7
+[15-Jan-2025 10:27:50 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Months.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Months.php on line 7
+[15-Jan-2025 10:28:10 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Historys.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Historys.php on line 7
+[15-Jan-2025 10:28:24 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Slopes.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Slopes.php on line 7
+[15-Jan-2025 10:28:39 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Spacing_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Spacing_lists.php on line 7
+[15-Jan-2025 10:28:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Mouza_types.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Mouza_types.php on line 7
+[15-Jan-2025 10:29:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Project_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Project_lists.php on line 7
+[15-Jan-2025 10:29:43 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Migrations.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Migrations.php on line 7
+[15-Jan-2025 10:29:58 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Forward_beat_history.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Forward_beat_history.php on line 7
+[15-Jan-2025 10:30:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Cardpoints.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Cardpoints.php on line 7
+[15-Jan-2025 10:30:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Polytypetrt_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Polytypetrt_lists.php on line 7
+[15-Jan-2025 10:30:45 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites.php on line 7
+[15-Jan-2025 10:31:18 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_district_pts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_district_pts.php on line 7
+[15-Jan-2025 10:31:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_district_boundary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_district_boundary.php on line 7
+[15-Jan-2025 10:31:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Elevations.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Elevations.php on line 7
+[15-Jan-2025 10:32:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Failed_jobs.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Failed_jobs.php on line 7
+[15-Jan-2025 10:32:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Topographies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Topographies.php on line 7
+[15-Jan-2025 10:32:53 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_ranges_test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_ranges_test.php on line 7
+[15-Jan-2025 10:33:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Personal_access_tokens.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Personal_access_tokens.php on line 7
+[15-Jan-2025 10:33:40 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Ssp_gpx_upload.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Ssp_gpx_upload.php on line 7
+[15-Jan-2025 10:33:55 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/User_logs.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/User_logs.php on line 7
+[15-Jan-2025 10:34:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_beats.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_beats.php on line 8
+[15-Jan-2025 10:34:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Error.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Error.php on line 8
+[15-Jan-2025 10:34:42 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_circles.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_circles.php on line 7
+[15-Jan-2025 10:35:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Sessions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Sessions.php on line 7
+[15-Jan-2025 10:35:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Natural_issues.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Natural_issues.php on line 7
+[15-Jan-2025 10:35:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Canopycover_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Canopycover_lists.php on line 7
+[15-Jan-2025 10:36:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aspects.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Aspects.php on line 7
+[15-Jan-2025 10:36:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Email_notifications.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Email_notifications.php on line 7
+[15-Jan-2025 10:37:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Index_maps.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Index_maps.php on line 7
+[15-Jan-2025 10:37:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_int_boundary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_int_boundary.php on line 7
+[15-Jan-2025 10:37:26 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Forward_status.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Forward_status.php on line 7
+[15-Jan-2025 10:37:58 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Spatial_ref_sys.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Spatial_ref_sys.php on line 7
+[15-Jan-2025 10:38:13 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_division_pts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_division_pts.php on line 7
+[15-Jan-2025 10:38:58 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Month_inun_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Month_inun_lists.php on line 7
+[15-Jan-2025 10:39:31 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Dis_nurserys.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Dis_nurserys.php on line 7
+[15-Jan-2025 10:39:51 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Roles.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Roles.php on line 7
+[15-Jan-2025 10:40:11 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Polytypes.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Polytypes.php on line 7
+[15-Jan-2025 10:40:26 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Th_plants.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Th_plants.php on line 7
+[15-Jan-2025 10:41:05 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Team_user.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Team_user.php on line 7
+[15-Jan-2025 10:41:20 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Qtr_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Qtr_lists.php on line 7
+[15-Jan-2025 10:41:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Repro_types.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Repro_types.php on line 7
+[15-Jan-2025 10:43:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/File_categories.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/File_categories.php on line 7
+[15-Jan-2025 10:57:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_union_pts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_union_pts.php on line 7
+[15-Jan-2025 10:57:37 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_ad_divisions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_ad_divisions.php on line 7
+[15-Jan-2025 10:58:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Financial_years.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Financial_years.php on line 7
+[15-Jan-2025 10:58:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Plantation_journals.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Plantation_journals.php on line 7
+[15-Jan-2025 10:59:08 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites_2d.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites_2d.php on line 7
+[15-Jan-2025 10:59:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Lmvh_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Lmvh_lists.php on line 7
+[15-Jan-2025 10:59:38 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Survey_types.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Survey_types.php on line 7
+[15-Jan-2025 11:00:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Occupation_coms.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Occupation_coms.php on line 7
+[15-Jan-2025 11:00:24 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_ranges.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_ranges.php on line 8
+[15-Jan-2025 11:00:31 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_union_boundary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_union_boundary.php on line 7
+[15-Jan-2025 11:00:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Planting_modes.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Planting_modes.php on line 7
+[15-Jan-2025 11:01:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Receptors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Receptors.php on line 7
+[15-Jan-2025 11:01:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_mauza_boundary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_mauza_boundary.php on line 7
+[15-Jan-2025 11:02:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_levels.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_levels.php on line 7
+[15-Jan-2025 11:02:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Project_lists_audit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Project_lists_audit.php on line 7
+[15-Jan-2025 11:02:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Users.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Users.php on line 8
+[15-Jan-2025 11:03:08 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_lists.php on line 7
+[15-Jan-2025 11:03:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Vegpct_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Vegpct_lists.php on line 7
+[15-Jan-2025 11:03:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Resources.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Resources.php on line 7
+[15-Jan-2025 11:04:11 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_ecozones.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_ecozones.php on line 7
+[15-Jan-2025 11:09:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Structures.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Structures.php on line 7
+[15-Jan-2025 11:33:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Regeneration_photo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Regeneration_photo.php on line 7
+[15-Jan-2025 11:50:19 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Percents.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Percents.php on line 7
+[15-Jan-2025 19:31:38 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_ad_upazillas.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_ad_upazillas.php on line 8
+[15-Jan-2025 20:41:21 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Soils.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Soils.php on line 7
+[15-Jan-2025 21:54:20 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Land_cover.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Land_cover.php on line 7
+[15-Jan-2025 23:22:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Directions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Directions.php on line 7
+[16-Jan-2025 00:48:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Inundations.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Inundations.php on line 7
+[16-Jan-2025 00:49:26 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Yes_no_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Yes_no_lists.php on line 7
+[16-Jan-2025 00:50:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Sessions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Sessions.php on line 7
+[16-Jan-2025 00:51:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Month_inun_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Month_inun_lists.php on line 7
+[16-Jan-2025 00:52:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Division_test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Division_test.php on line 7
+[16-Jan-2025 00:54:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Months.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Months.php on line 7
+[16-Jan-2025 00:55:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Polytypetrt_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Polytypetrt_lists.php on line 7
+[16-Jan-2025 00:57:31 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Qtr_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Qtr_lists.php on line 7
+[16-Jan-2025 00:59:49 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Natural_issues.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Natural_issues.php on line 7
+[16-Jan-2025 01:02:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Percents.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Percents.php on line 7
+[16-Jan-2025 01:04:28 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Teams.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Teams.php on line 7
+[16-Jan-2025 01:06:45 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Mouza_types.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Mouza_types.php on line 7
+[16-Jan-2025 01:11:21 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Pct10_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Pct10_lists.php on line 7
+[16-Jan-2025 04:11:19 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/User_logs.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/User_logs.php on line 7
+[16-Jan-2025 04:15:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Migrations.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Migrations.php on line 7
+[16-Jan-2025 04:18:14 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Record_points.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Record_points.php on line 7
+[16-Jan-2025 04:19:50 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Human_issues.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Human_issues.php on line 7
+[16-Jan-2025 04:21:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Logistic_conditions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Logistic_conditions.php on line 7
+[16-Jan-2025 04:23:45 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Cardpoints.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Cardpoints.php on line 7
+[16-Jan-2025 04:35:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Sources.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Sources.php on line 7
+[16-Jan-2025 04:41:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Slopes.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Slopes.php on line 7
+[16-Jan-2025 04:53:06 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites.php on line 7
+[16-Jan-2025 04:55:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Age_plantations.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Age_plantations.php on line 7
+[16-Jan-2025 05:00:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Soils.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Soils.php on line 7
+[16-Jan-2025 05:04:50 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Ssp_gpx_upload.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Ssp_gpx_upload.php on line 7
+[16-Jan-2025 05:16:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_ad_districts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_ad_districts.php on line 7
+[16-Jan-2025 05:20:29 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Team_invitations.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Team_invitations.php on line 7
+[16-Jan-2025 05:32:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_district_pts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_district_pts.php on line 7
+[16-Jan-2025 05:34:11 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Failed_jobs.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Failed_jobs.php on line 7
+[16-Jan-2025 05:40:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Canopycover_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Canopycover_lists.php on line 7
+[16-Jan-2025 05:43:58 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Password_resets.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Password_resets.php on line 7
+[16-Jan-2025 05:47:53 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_beats.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_fd_beats.php on line 8
+[16-Jan-2025 05:51:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Personal_access_tokens.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Personal_access_tokens.php on line 7
+[16-Jan-2025 06:07:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites_bk.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites_bk.php on line 7
+[16-Jan-2025 06:11:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Regeneration_photo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Regeneration_photo.php on line 7
+[16-Jan-2025 10:48:29 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Structures.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Structures.php on line 7
+[16-Jan-2025 11:01:34 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Vegpct_lists.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Vegpct_lists.php on line 7
+[16-Jan-2025 11:17:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/File_categories.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/File_categories.php on line 7
+[16-Jan-2025 12:56:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_union_pts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geo_union_pts.php on line 7
+[16-Jan-2025 13:12:29 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Plantation_journals.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Plantation_journals.php on line 7
+[16-Jan-2025 13:45:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites_2d.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Intervention_sites_2d.php on line 7
+[16-Jan-2025 22:26:01 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[16-Jan-2025 22:26:01 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[16-Jan-2025 22:26:01 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_ad_districts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Jur_ad_districts.php on line 7
+[17-Jan-2025 05:35:45 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 05:35:45 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 05:35:45 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geom_vw_ssp_map.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Geom_vw_ssp_map.php on line 7
+[17-Jan-2025 07:32:57 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 07:32:57 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 07:32:57 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Cardpoints.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Controllers/Api/Cardpoints.php on line 7

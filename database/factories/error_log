@@ -1,0 +1,8 @@
+[15-Jan-2025 02:44:10 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/factories/UserFactory.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/factories/UserFactory.php on line 20
+[15-Jan-2025 03:52:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/factories/UserFactory.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/factories/UserFactory.php on line 20

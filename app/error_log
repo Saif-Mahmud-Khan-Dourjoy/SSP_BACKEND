@@ -1,0 +1,42 @@
+[14-Jan-2025 22:29:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Month_model.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Month_model.php on line 8
+[14-Jan-2025 23:20:40 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/User.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/User.php on line 9
+[15-Jan-2025 01:57:01 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/User.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/User.php on line 9
+[15-Jan-2025 02:00:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Month_model.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Month_model.php on line 8
+[15-Jan-2025 02:36:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Land_cover_model.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Land_cover_model.php on line 8
+[15-Jan-2025 06:02:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Land_cover_model.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Land_cover_model.php on line 8
+[17-Jan-2025 00:11:18 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:11:18 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:11:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/User.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/User.php on line 9
+[17-Jan-2025 00:12:12 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:12:12 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:12:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Month_model.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Month_model.php on line 8
+[17-Jan-2025 06:15:48 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 06:15:48 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 06:15:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Land_cover_model.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Land_cover_model.php on line 8

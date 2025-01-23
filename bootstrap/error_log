@@ -1,0 +1,18 @@
+[15-Jan-2025 00:37:19 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/bootstrap/app.php on line 14
+[15-Jan-2025 01:49:14 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/bootstrap/app.php on line 14
+[15-Jan-2025 06:36:52 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/bootstrap/app.php on line 14
+[17-Jan-2025 00:08:34 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:08:34 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:08:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/bootstrap/app.php on line 14

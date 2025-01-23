@@ -1,0 +1,8 @@
+[15-Jan-2025 02:46:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Console/Kernel.php on line 8
+[15-Jan-2025 04:00:20 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Console/Kernel.php on line 8

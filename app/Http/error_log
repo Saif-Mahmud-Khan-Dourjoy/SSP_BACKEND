@@ -1,0 +1,8 @@
+[15-Jan-2025 02:55:14 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Kernel' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Kernel.php on line 7
+[15-Jan-2025 03:54:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Kernel' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Http/Kernel.php on line 7

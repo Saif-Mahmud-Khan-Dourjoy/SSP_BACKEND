@@ -1,0 +1,14 @@
+[15-Jan-2025 03:14:39 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/seeds/DatabaseSeeder.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/seeds/DatabaseSeeder.php on line 5
+[15-Jan-2025 05:40:09 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/seeds/DatabaseSeeder.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/seeds/DatabaseSeeder.php on line 5
+[17-Jan-2025 05:59:43 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 05:59:43 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 05:59:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/seeds/DatabaseSeeder.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/database/seeds/DatabaseSeeder.php on line 5

@@ -1,0 +1,10 @@
+[15-Jan-2025 04:51:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Exceptions/Handler.php on line 8
+[17-Jan-2025 00:26:21 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:26:21 UTC] PHP Warning:  Module 'pgsql' already loaded in Unknown on line 0
+[17-Jan-2025 00:26:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Exceptions/Handler.php on line 8

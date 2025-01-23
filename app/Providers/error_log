@@ -1,0 +1,28 @@
+[15-Jan-2025 02:34:31 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/AppServiceProvider.php on line 7
+[15-Jan-2025 03:55:38 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/BroadcastServiceProvider.php on line 8
+[15-Jan-2025 03:56:06 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/AuthServiceProvider.php on line 8
+[15-Jan-2025 03:56:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/AppServiceProvider.php on line 7
+[15-Jan-2025 03:57:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/EventServiceProvider.php on line 10
+[15-Jan-2025 03:58:04 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/RouteServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/RouteServiceProvider.php on line 8
+[15-Jan-2025 09:34:31 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/urbanit101/public_html/ecoder/project_folder/urbanit101_ssp/app/Providers/AuthServiceProvider.php on line 8
