@@ -27,8 +27,8 @@
 
 				);
 				}
-				$insert_id = DB::table("aggregate.GENER43_2021_FBLI_M_SH1")->insert($data);
-				return response()->json($insert_id);
+				$response = DB::table("aggregate.GENER43_2021_FBLI_M_SH1")->insert($data);
+				return response()->json($response);
 			}
 		public function gener43_2021_fbli_m_sh1_list(){
 			$query = DB::select('select * from aggregate."GENER43_2021_FBLI_M_SH1"');
@@ -52,5 +52,19 @@
             $q=DB::GetQueryLog();
             return response()->json($query);
         }
+
+	public function gener43_2021_fbli_m_sh1_delete($uri,$auri)
+	{
+		$deleted = DB::table("aggregate.GENER43_2021_FBLI_M_SH1")
+		->where('_URI', $uri)->where('_TOP_LEVEL_AURI',$auri)->delete(); 
+
+		if ($deleted) {
+			return response()->json(['message' => 'Record deleted successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+		
+		
+	}
 	}
 			

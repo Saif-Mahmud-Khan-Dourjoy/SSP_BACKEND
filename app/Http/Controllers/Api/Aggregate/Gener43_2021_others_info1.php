@@ -31,9 +31,9 @@ use Illuminate\Http\Request;
                 );
 				
 			}	
-			$insert_id = DB::table("aggregate.GENER43_2021_OTHERS_INFO1")->insert($data);
+			$response = DB::table("aggregate.GENER43_2021_OTHERS_INFO1")->insert($data);
                 //
-                return response()->json($data);
+                return response()->json($response);
         }
 		public function gener43_2021_others_info1_list(){
 			$query = DB::select('select * from aggregate."GENER43_2021_OTHERS_INFO1"');
@@ -56,5 +56,19 @@ use Illuminate\Http\Request;
             $q=DB::GetQueryLog();
             return response()->json($query);
         }
+
+
+
+	public function Gener43_2021_others_info1_delete($uri, $auri)
+	{
+		$deleted = DB::table("aggregate.GENER43_2021_OTHERS_INFO1")
+		->where('_URI', $uri)->where('_TOP_LEVEL_AURI', $auri)->delete();
+
+		if ($deleted) {
+			return response()->json(['message' => 'Record deleted successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
 	}
 			

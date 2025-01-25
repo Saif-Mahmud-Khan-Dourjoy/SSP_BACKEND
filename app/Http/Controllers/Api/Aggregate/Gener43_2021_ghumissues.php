@@ -26,8 +26,8 @@
 
 				);
 				}
-				$insert_id = DB::table("aggregate.GENER43_2021_GHUMISSUES")->insert($data);
-				return response()->json($insert_id);
+				$response = DB::table("aggregate.GENER43_2021_GHUMISSUES")->insert($data);
+				return response()->json($response);
 			}
 		public function gener43_2021_ghumissues_list(){
 			$query = DB::select('select * from aggregate."GENER43_2021_GHUMISSUES"');
@@ -50,5 +50,18 @@
             $q=DB::GetQueryLog();
             return response()->json($query);
         }
+
+
+	public function gener43_2021_ghumissues_delete($uri, $auri)
+	{
+		$deleted = DB::table("aggregate.GENER43_2021_GHUMISSUES")
+		->where('_URI', $uri)->where('_TOP_LEVEL_AURI', $auri)->delete();
+
+		if ($deleted) {
+			return response()->json(['message' => 'Record deleted successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
 	}
 			

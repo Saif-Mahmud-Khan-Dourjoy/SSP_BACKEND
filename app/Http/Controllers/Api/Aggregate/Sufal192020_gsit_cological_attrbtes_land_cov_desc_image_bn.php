@@ -44,11 +44,11 @@ class Sufal192020_gsit_cological_attrbtes_land_cov_desc_image_bn extends Control
 		// $query = DB::select('SELECT table_schema, table_name FROM information_schema.tables WHERE table_name LIKE :table_name', [
 		// 	'table_name' => '%SUFAL192020%'
 		// ]);
-		$query = DB::select('SELECT column_name
+		$query = DB::select('SELECT column_name, data_type
                      FROM information_schema.columns
                      WHERE table_schema = :schema AND table_name = :table', [
 			'schema' => 'aggregate',
-			'table' => 'GENER43_2021_CORE'
+			'table' => 'GENER43_2021_FBLI_CA_TLOC_AD_UPZILLA'
 		]);
 
 		return response()->json($query);
