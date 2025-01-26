@@ -241,6 +241,8 @@ if (Request::input("token") == $token) {
 	Route::get('/gener43_2021_core_id/{id}/{id2}/{id3}/{id4}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_core@gener43_2021_core_id');
 	Route::post('/gener43_2021_core_create', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_core@gener43_2021_core_create');
 	Route::get('/gener43_2021_core_uri/{uri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_core@gener43_2021_core_uri');
+	Route::put('/gener43_2021_core_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_core@gener43_2021_core_update');
+
 
 	Route::get('/gener43_2021_fbli_ca_tloc_ad_upzilla', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_fbli_ca_tloc_ad_upzilla@gener43_2021_fbli_ca_tloc_ad_upzilla_list');
 	Route::get('/gener43_2021_fbli_ca_tloc_ad_upzilla_id/{id}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_fbli_ca_tloc_ad_upzilla@gener43_2021_fbli_ca_tloc_ad_upzilla_id');

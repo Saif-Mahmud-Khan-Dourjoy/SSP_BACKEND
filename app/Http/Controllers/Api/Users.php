@@ -12,8 +12,8 @@ class Users extends Controller
 
     public function users_list(Request $request)
     {
-        $email = $request->post('email');
-        $password = $request->post('password');
+        $email = $request->input('email');
+        $password = $request->input('password');
         //echo $email.$password;
         $hpass = Hash::make($password);
         $query = DB::select(

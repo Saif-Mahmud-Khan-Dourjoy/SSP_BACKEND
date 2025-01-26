@@ -26,26 +26,57 @@ class Gener43_2021_xpic_beat_index_blb extends Controller
 		return response()->json($response);
 	}
 
+	// public function gener43_2021_xpic_beat_index_blb_bulk_create(Request $request)
+	// {
+
+	// 	$data = array();
+	// 	for ($i = 0; $i < count($request->input("_URI")); $i++) {
+
+	// 		$data[] = array(
+	// 			"_URI" => $request->input("_URI")[$i],
+	// 			"_CREATOR_URI_USER" => $request->input("_CREATOR_URI_USER")[$i],
+	// 			"_CREATION_DATE" => $request->input("_CREATION_DATE")[$i],
+	// 			"_LAST_UPDATE_URI_USER" => $request->input("_LAST_UPDATE_URI_USER")[$i],
+	// 			"_LAST_UPDATE_DATE" => $request->input("_LAST_UPDATE_DATE")[$i],
+	// 			"_TOP_LEVEL_AURI" => $request->input("_TOP_LEVEL_AURI")[$i],
+	// 			"VALUE" => base64_decode($request->input("VALUE")[$i]),
+
+	// 		);
+	// 	}
+	// 	$response = DB::table("aggregate.GENER43_2021_XPIC_BEAT_INDEX_BLB")->insert($data);
+	// 	return response()->json($response);
+	// }
+
 	public function gener43_2021_xpic_beat_index_blb_bulk_create(Request $request)
 	{
+		// Retrieve the payload as an array of objects, excluding the token
+		$payload = $request->except('token');
 
-		$data = array();
-		for ($i = 0; $i < count($request->input("_URI")); $i++) {
-
-			$data[] = array(
-				"_URI" => $request->input("_URI")[$i],
-				"_CREATOR_URI_USER" => $request->input("_CREATOR_URI_USER")[$i],
-				"_CREATION_DATE" => $request->input("_CREATION_DATE")[$i],
-				"_LAST_UPDATE_URI_USER" => $request->input("_LAST_UPDATE_URI_USER")[$i],
-				"_LAST_UPDATE_DATE" => $request->input("_LAST_UPDATE_DATE")[$i],
-				"_TOP_LEVEL_AURI" => $request->input("_TOP_LEVEL_AURI")[$i],
-				"VALUE" => base64_decode($request->input("VALUE")[$i]),
-
-			);
+		// Validate that the payload is an array and is not empty
+		if (!is_array($payload) || empty($payload)) {
+			return response()->json(['error' => 'Invalid payload format'], 400);
 		}
+
+		$data = [];
+		foreach ($payload as $item) {
+			$data[] = [
+				"_URI" => $item["_URI"] ?? null,
+				"_CREATOR_URI_USER" => $item["_CREATOR_URI_USER"] ?? null,
+				"_CREATION_DATE" => $item["_CREATION_DATE"] ?? null,
+				"_LAST_UPDATE_URI_USER" => $item["_LAST_UPDATE_URI_USER"] ?? null,
+				"_LAST_UPDATE_DATE" => $item["_LAST_UPDATE_DATE"] ?? null,
+				"_TOP_LEVEL_AURI" => $item["_TOP_LEVEL_AURI"] ?? null,
+				"VALUE" => isset($item["VALUE"]) ? base64_decode($item["VALUE"]) : null,
+			];
+		}
+
+		// Insert the data into the database
 		$response = DB::table("aggregate.GENER43_2021_XPIC_BEAT_INDEX_BLB")->insert($data);
-		return response()->json($response);
+
+		// Return a success response
+		return response()->json(['success' => $response]);
 	}
+
 	public function gener43_2021_xpic_beat_index_blb_list()
 	{
 		$query = DB::select('select * from aggregate."GENER43_2021_XPIC_BEAT_INDEX_BLB"');

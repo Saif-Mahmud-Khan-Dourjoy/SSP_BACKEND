@@ -27,24 +27,55 @@ class Gener43_2021_overallnotes_ima_blb extends Controller
 		return response()->json($response);
 	}
 
+	// public function gener43_2021_overallnotes_ima_blb_bulk_create(Request $request)
+	// {
+	// 	$data = array();
+	// 	for ($i = 0; $i < count($request->input("_uri")); $i++) {
+
+	// 		$data[] = array(
+	// 				"_URI" => $request->input("_uri")[$i],
+	// 				"_CREATOR_URI_USER" => $request->input("_creator_uri_user")[$i],
+	// 				"_CREATION_DATE" => $request->input("_creation_date")[$i],
+	// 				"_LAST_UPDATE_URI_USER" => $request->input("_last_update_uri_user")[$i],
+	// 				"_LAST_UPDATE_DATE" => $request->input("_last_update_date")[$i],
+	// 				"_TOP_LEVEL_AURI" => $request->input("_top_level_auri")[$i],
+	// 				"VALUE" => base64_decode($request->input("value")[$i]),
+
+	// 			);
+	// 	}
+	// 	$response = DB::table("aggregate.GENER43_2021_OVERALLNOTES_IMA_BLB")->insert($data);
+	// 	return response()->json($response);
+	// }
+
+
 	public function gener43_2021_overallnotes_ima_blb_bulk_create(Request $request)
 	{
-		$data = array();
-		for ($i = 0; $i < count($request->input("_uri")); $i++) {
+		// Retrieve the payload as an array of objects, excluding the token
+		$payload = $request->except('token');
 
-			$data[] = array(
-					"_URI" => $request->input("_uri")[$i],
-					"_CREATOR_URI_USER" => $request->input("_creator_uri_user")[$i],
-					"_CREATION_DATE" => $request->input("_creation_date")[$i],
-					"_LAST_UPDATE_URI_USER" => $request->input("_last_update_uri_user")[$i],
-					"_LAST_UPDATE_DATE" => $request->input("_last_update_date")[$i],
-					"_TOP_LEVEL_AURI" => $request->input("_top_level_auri")[$i],
-					"VALUE" => base64_decode($request->input("value")[$i]),
-
-				);
+		// Validate that the payload is an array and is not empty
+		if (!is_array($payload) || empty($payload)) {
+			return response()->json(['error' => 'Invalid payload format'], 400);
 		}
+
+		$data = [];
+		foreach ($payload as $item) {
+			$data[] = [
+				"_URI" => $item["_uri"] ?? null,
+				"_CREATOR_URI_USER" => $item["_creator_uri_user"] ?? null,
+				"_CREATION_DATE" => $item["_creation_date"] ?? null,
+				"_LAST_UPDATE_URI_USER" => $item["_last_update_uri_user"] ?? null,
+				"_LAST_UPDATE_DATE" => $item["_last_update_date"] ?? null,
+				"_TOP_LEVEL_AURI" => $item["_top_level_auri"] ?? null,
+				"VALUE" => isset($item["value"]) ? base64_decode($item["value"]) : null,
+			];
+		}
+
+		// Insert the data into the database
 		$response = DB::table("aggregate.GENER43_2021_OVERALLNOTES_IMA_BLB")->insert($data);
-		return response()->json($response);
+
+		// Return a success response
+		return response()->json(['success' => $response]);
 	}
 	public function gener43_2021_overallnotes_ima_blb_list()
 	{
