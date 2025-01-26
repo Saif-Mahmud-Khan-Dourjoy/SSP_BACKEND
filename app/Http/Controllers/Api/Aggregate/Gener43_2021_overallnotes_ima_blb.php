@@ -89,7 +89,7 @@ class Gener43_2021_overallnotes_ima_blb extends Controller
 				"_LAST_UPDATE_URI_USER" => $val->_LAST_UPDATE_URI_USER,
 				"_LAST_UPDATE_DATE" => $val->_LAST_UPDATE_DATE,
 				"_TOP_LEVEL_AURI" => $val->_TOP_LEVEL_AURI,
-				"VALUE" => base64_encode($val->VALUE),
+				"VALUE" => base64_encode(stream_get_contents($val->VALUE)),
 			);
 		}
 		return response()->json($r);
@@ -97,7 +97,7 @@ class Gener43_2021_overallnotes_ima_blb extends Controller
 
 	public function gener43_2021_overallnotes_ima_blb_id($id)
 	{
-		DB::EnableQueryLog();
+		
 		$sql = "
             select
                 gen.*
@@ -106,8 +106,20 @@ class Gener43_2021_overallnotes_ima_blb extends Controller
                 where   gen.\"_TOP_LEVEL_AURI\" = '$id'
             ";
 		$query =  DB::select($sql);
-		$q = DB::GetQueryLog();
-		return response()->json($query);
+		$r = array();
+		foreach ($query as $val) {
+			$r[] = array(
+				"_URI" => $val->_URI,
+				"_CREATOR_URI_USER" => $val->_CREATOR_URI_USER,
+				"_CREATION_DATE" => $val->_CREATION_DATE,
+				"_LAST_UPDATE_URI_USER" => $val->_LAST_UPDATE_URI_USER,
+				"_LAST_UPDATE_DATE" => $val->_LAST_UPDATE_DATE,
+				"_TOP_LEVEL_AURI" => $val->_TOP_LEVEL_AURI,
+				"VALUE" => base64_encode(stream_get_contents($val->VALUE)),
+			);
+		}
+		
+		return response()->json($r);
 	}
 
 	public function gener43_2021_overallnotes_ima_blb_delete($uri, $auri)
