@@ -12,7 +12,9 @@ class Gener43_2021_overallnotes_ima_blb extends Controller
 	public function gener43_2021_overallnotes_ima_blb_create(Request $request)
 	{
 
-		$value = base64_decode($request->input("value"));
+		// $value = base64_decode($request->input("value"));
+
+		$value = mb_convert_encoding($request->input("value"), 'UTF-8', 'UTF-8');
 		$data = array(
 			"_URI" => $request->input("_uri"),
 			"_CREATOR_URI_USER" => $request->input("_creator_uri_user"),
@@ -67,7 +69,7 @@ class Gener43_2021_overallnotes_ima_blb extends Controller
 				"_LAST_UPDATE_URI_USER" => $item["_last_update_uri_user"] ?? null,
 				"_LAST_UPDATE_DATE" => $item["_last_update_date"] ?? null,
 				"_TOP_LEVEL_AURI" => $item["_top_level_auri"] ?? null,
-				"VALUE" => isset($item["value"]) ? base64_decode($item["value"]) : null,
+				"VALUE" => isset($item["value"]) ? mb_convert_encoding($item['value'], 'UTF-8', 'UTF-8') : null,
 			];
 		}
 
@@ -89,7 +91,7 @@ class Gener43_2021_overallnotes_ima_blb extends Controller
 				"_LAST_UPDATE_URI_USER" => $val->_LAST_UPDATE_URI_USER,
 				"_LAST_UPDATE_DATE" => $val->_LAST_UPDATE_DATE,
 				"_TOP_LEVEL_AURI" => $val->_TOP_LEVEL_AURI,
-				"VALUE" => base64_encode(stream_get_contents($val->VALUE)),
+				"VALUE" => mb_convert_encoding(stream_get_contents($val->VALUE), 'UTF-8', 'UTF-8'),
 			);
 		}
 		return response()->json($r);
@@ -115,7 +117,7 @@ class Gener43_2021_overallnotes_ima_blb extends Controller
 				"_LAST_UPDATE_URI_USER" => $val->_LAST_UPDATE_URI_USER,
 				"_LAST_UPDATE_DATE" => $val->_LAST_UPDATE_DATE,
 				"_TOP_LEVEL_AURI" => $val->_TOP_LEVEL_AURI,
-				"VALUE" => base64_encode(stream_get_contents($val->VALUE)),
+				"VALUE" => mb_convert_encoding(stream_get_contents($val->VALUE), 'UTF-8', 'UTF-8'),
 			);
 		}
 		

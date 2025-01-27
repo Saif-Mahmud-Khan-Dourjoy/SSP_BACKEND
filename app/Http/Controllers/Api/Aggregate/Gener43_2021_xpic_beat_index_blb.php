@@ -11,7 +11,9 @@ class Gener43_2021_xpic_beat_index_blb extends Controller
 
 	public function gener43_2021_xpic_beat_index_blb_create(Request $request)
 	{
-		$value = base64_decode($request->input("VALUE"));
+		// $value = base64_decode($request->input("VALUE"));
+
+		$value=mb_convert_encoding($request->input("VALUE"), 'UTF-8', 'UTF-8');
 		$data = array(
 			"_URI" => $request->input("_URI"),
 			"_CREATOR_URI_USER" => $request->input("_CREATOR_URI_USER"),
@@ -52,6 +54,8 @@ class Gener43_2021_xpic_beat_index_blb extends Controller
 		// Retrieve the payload as an array of objects, excluding the token
 		$payload = $request->except('token');
 
+	
+
 		// Validate that the payload is an array and is not empty
 		if (!is_array($payload) || empty($payload)) {
 			return response()->json(['error' => 'Invalid payload format'], 400);
@@ -66,10 +70,10 @@ class Gener43_2021_xpic_beat_index_blb extends Controller
 				"_LAST_UPDATE_URI_USER" => $item["_LAST_UPDATE_URI_USER"] ?? null,
 				"_LAST_UPDATE_DATE" => $item["_LAST_UPDATE_DATE"] ?? null,
 				"_TOP_LEVEL_AURI" => $item["_TOP_LEVEL_AURI"] ?? null,
-				"VALUE" => isset($item["VALUE"]) ? base64_decode($item["VALUE"]) : null,
+				"VALUE" => isset($item["VALUE"]) ? mb_convert_encoding($item['VALUE'], 'UTF-8', 'UTF-8') : null,
 			];
 		}
-
+	
 		// Insert the data into the database
 		$response = DB::table("aggregate.GENER43_2021_XPIC_BEAT_INDEX_BLB")->insert($data);
 
@@ -89,8 +93,8 @@ class Gener43_2021_xpic_beat_index_blb extends Controller
 				"_LAST_UPDATE_URI_USER" => $val->_LAST_UPDATE_URI_USER,
 				"_LAST_UPDATE_DATE" => $val->_LAST_UPDATE_DATE,
 				"_TOP_LEVEL_AURI" => $val->_TOP_LEVEL_AURI,
-				// "VALUE" => mb_convert_encoding(stream_get_contents($val->VALUE), 'UTF-8', 'UTF-8'),
-				"VALUE" => base64_encode(stream_get_contents($val->VALUE)),
+				"VALUE" => mb_convert_encoding(stream_get_contents($val->VALUE), 'UTF-8', 'UTF-8'),
+				// "VALUE" => $val->VALUE,
 			);
 		}
 		return response()->json($r);
@@ -117,7 +121,8 @@ class Gener43_2021_xpic_beat_index_blb extends Controller
 				"_LAST_UPDATE_DATE" => $val->_LAST_UPDATE_DATE,
 				"_TOP_LEVEL_AURI" => $val->_TOP_LEVEL_AURI,
 				// "VALUE" => mb_convert_encoding(stream_get_contents($val->VALUE), 'UTF-8', 'UTF-8'),
-				"VALUE" => base64_encode(stream_get_contents($val->VALUE)),
+				// "VALUE" => base64_encode(stream_get_contents($val->VALUE)),
+				"VALUE" => mb_convert_encoding(stream_get_contents($val->VALUE), 'UTF-8', 'UTF-8'),
 			);
 		}
 		
