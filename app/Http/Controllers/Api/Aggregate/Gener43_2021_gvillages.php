@@ -132,4 +132,80 @@ class Gener43_2021_gvillages extends Controller
 			return response()->json(['message' => 'Record not found.'], 404);
 		}
 	}
+
+
+
+	public function gener43_2021_gvillages_update(Request $request)
+	{
+		$payload = $request->except('token');
+
+
+
+		if (
+			!is_array($payload) || empty($payload)
+		) {
+			return response()->json(['error' => 'Invalid payload format'], 400);
+		}
+
+		$responses = [];
+		foreach ($payload as $item) {
+			$data = [
+				"_URI" => $item["_URI"] ?? null,
+				"_CREATOR_URI_USER" => $item["_CREATOR_URI_USER"] ?? null,
+				"_CREATION_DATE" => $item["_CREATION_DATE"] ?? null,
+				"_LAST_UPDATE_URI_USER" => $item["_LAST_UPDATE_URI_USER"] ?? null,
+				"_LAST_UPDATE_DATE" => $item["_LAST_UPDATE_DATE"] ?? null,
+				"_PARENT_AURI" => $item["_PARENT_AURI"] ?? null,
+				"_ORDINAL_NUMBER" => $item["_ORDINAL_NUMBER"] ?? null,
+				"_TOP_LEVEL_AURI" => $item["_TOP_LEVEL_AURI"] ?? null,
+				"SOCFOR_PARTIC" => $item["SOCFOR_PARTIC"] ?? null,
+				"VRECORD_HOW" => $item["VRECORD_HOW"] ?? null,
+				"VILLA_AD_UNION" => $item["VILLA_AD_UNION"] ?? null,
+				"FOREST_VILGRS" => $item["FOREST_VILGRS"] ?? null,
+				"TOT_HH" => $item["TOT_HH"] ?? null,
+				"VSITEPOINT_ACC" => $item["VSITEPOINT_ACC"] ?? null,
+				"VSITEPOINT_LAT" => $item["VSITEPOINT_LAT"] ?? null,
+				"FCV_PARTC" => $item["FCV_PARTC"] ?? null,
+				"TVILLAGE_NAME" => $item["TVILLAGE_NAME"] ?? null,
+				"VSITEPOINT_ALT" => $item["VSITEPOINT_ALT"] ?? null,
+				"GRCOORDS_VSITE_EAST" => $item["GRCOORDS_VSITE_EAST"] ?? null,
+				"VILLA_AD_UPZILLA" => $item["VILLA_AD_UPZILLA"] ?? null,
+				"GENERATED_NOTE_NAME_170" => $item["GENERATED_NOTE_NAME_170"] ?? null,
+				"GRCOORDS_VSITE_NORTH" => $item["GRCOORDS_VSITE_NORTH"] ?? null,
+				"VSITEPOINT_LNG" => $item["VSITEPOINT_LNG"] ?? null,
+				"VILLA_DIST" => $item["VILLA_DIST"] ?? null,
+			];
+
+
+
+			// Check if the record exists using _URI
+			$existingRecord = DB::table("aggregate.GENER43_2021_GVILLAGES")
+				->where("_URI", $data["_URI"])
+				->first();
+
+			if ($existingRecord) {
+				// Update the existing record
+				$response = DB::table("aggregate.GENER43_2021_GVILLAGES")
+				->where("_URI", $data["_URI"])
+					->update($data);
+				$responses[] = [
+					"_URI" => $data["_URI"],
+					"action" => "updated",
+					"success" => $response > 0, // true if updated successfully
+				];
+			} else {
+				// Insert a new record
+				$response = DB::table("aggregate.GENER43_2021_GVILLAGES")
+				->insert($data);
+				$responses[] = [
+					"_URI" => $data["_URI"],
+					"action" => "inserted",
+					"success" => $response, // true if inserted successfully
+				];
+			}
+		}
+
+		// Return a JSON response with all actions performed
+		return response()->json($responses);
+	}
 }

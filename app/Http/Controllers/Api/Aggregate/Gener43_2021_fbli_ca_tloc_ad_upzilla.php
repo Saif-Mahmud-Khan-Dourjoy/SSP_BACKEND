@@ -61,4 +61,36 @@ class Gener43_2021_fbli_ca_tloc_ad_upzilla extends Controller
 
 		
 	}
+
+	public function gener43_2021_fbli_ca_tloc_ad_upzilla_update(Request $request, $uri)
+	{
+		
+
+		// Prepare the updated data
+		$updatedData = array(
+			"_CREATOR_URI_USER" => $request->post("_creator_uri_user"),
+			"_CREATION_DATE" => $request->post("_creation_date"),
+			"_LAST_UPDATE_URI_USER" => $request->post("_last_update_uri_user"),
+			"_LAST_UPDATE_DATE" => $request->post("_last_update_date"),
+			"_PARENT_AURI" => $request->post("_parent_auri"),
+			"_ORDINAL_NUMBER" => $request->post("_ordinal_number"),
+			"_TOP_LEVEL_AURI" => $request->post("_top_level_auri"),
+			"VALUE" => $request->post("value"),
+		);
+
+		
+
+		// Perform the update operation
+		$response = DB::table("aggregate.GENER43_2021_FBLI_CA_TLOC_AD_UPZILLA")
+		->where("_URI", $uri)
+			->update($updatedData);
+
+		// Return the response in JSON format
+		if($response){
+			return response()->json(['message' => 'Record updated successfully.']);
+		}else{
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+		
+	}
 }

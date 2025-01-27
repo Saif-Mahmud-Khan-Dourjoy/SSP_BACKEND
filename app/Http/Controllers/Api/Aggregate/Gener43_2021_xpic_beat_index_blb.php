@@ -140,4 +140,40 @@ class Gener43_2021_xpic_beat_index_blb extends Controller
 			return response()->json(['message' => 'Record not found.'], 404);
 		}
 	}
+
+
+	public function gener43_2021_xpic_beat_index_blb_update(Request $request, $auri)
+	{
+		DB::table('aggregate.GENER43_2021_XPIC_BEAT_INDEX_BLB')
+		->where('_TOP_LEVEL_AURI', $auri)->delete();
+
+		// Retrieve the payload as an array of objects, excluding the token
+		$payload = $request->except('token');
+
+
+
+		// Validate that the payload is an array and is not empty
+		if (!is_array($payload) || empty($payload)) {
+			return response()->json(['error' => 'Invalid payload format'], 400);
+		}
+
+		$data = [];
+		foreach ($payload as $item) {
+			$data[] = [
+				"_URI" => $item["_URI"] ?? null,
+				"_CREATOR_URI_USER" => $item["_CREATOR_URI_USER"] ?? null,
+				"_CREATION_DATE" => $item["_CREATION_DATE"] ?? null,
+				"_LAST_UPDATE_URI_USER" => $item["_LAST_UPDATE_URI_USER"] ?? null,
+				"_LAST_UPDATE_DATE" => $item["_LAST_UPDATE_DATE"] ?? null,
+				"_TOP_LEVEL_AURI" => $item["_TOP_LEVEL_AURI"] ?? null,
+				"VALUE" => isset($item["VALUE"]) ? mb_convert_encoding($item['VALUE'], 'UTF-8', 'UTF-8') : null,
+			];
+		}
+
+		// Insert the data into the database
+		$response = DB::table("aggregate.GENER43_2021_XPIC_BEAT_INDEX_BLB")->insert($data);
+
+		// Return a success response
+		return response()->json(['success' => $response]);
+	}
 }

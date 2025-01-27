@@ -22,7 +22,7 @@ use Illuminate\Http\Request;
 "PART" => $request->input("part"),
 
 			);
-			$response = DB::table("GENER43_2021_XPIC_BEAT_INDEX_REF")->insert($data);
+			$response = DB::table("aggregate.GENER43_2021_XPIC_BEAT_INDEX_REF")->insert($data);
 			return response()->json($response);
 		}
 
@@ -78,7 +78,7 @@ use Illuminate\Http\Request;
 		}
 
 		// Insert the data into the database
-		$response = DB::table("GENER43_2021_XPIC_BEAT_INDEX_REF")->insert($data);
+		$response = DB::table("aggregate.GENER43_2021_XPIC_BEAT_INDEX_REF")->insert($data);
 
 		// Return a success response
 		return response()->json(['success' => $response]);
@@ -114,6 +114,41 @@ use Illuminate\Http\Request;
 		} else {
 			return response()->json(['message' => 'Record not found.'], 404);
 		}
+	}
+
+	public function gener43_2021_xpic_beat_index_ref_update(Request $request, $auri)
+	{
+		DB::table('aggregate.GENER43_2021_XPIC_BEAT_INDEX_REF')
+		->where('_TOP_LEVEL_AURI', $auri)->delete();
+
+		// Retrieve the payload as an array of objects, excluding the token
+		$payload = $request->except('token');
+
+		// Validate that the payload is an array and is not empty
+		if (!is_array($payload) || empty($payload)) {
+			return response()->json(['error' => 'Invalid payload format'], 400);
+		}
+
+		$data = [];
+		foreach ($payload as $item) {
+			$data[] = [
+				"_URI" => $item["_uri"] ?? null,
+				"_CREATOR_URI_USER" => $item["_creator_uri_user"] ?? null,
+				"_CREATION_DATE" => $item["_creation_date"] ?? null,
+				"_LAST_UPDATE_URI_USER" => $item["_last_update_uri_user"] ?? null,
+				"_LAST_UPDATE_DATE" => $item["_last_update_date"] ?? null,
+				"_DOM_AURI" => $item["_dom_auri"] ?? null,
+				"_SUB_AURI" => $item["_sub_auri"] ?? null,
+				"_TOP_LEVEL_AURI" => $item["_top_level_auri"] ?? null,
+				"PART" => $item["part"] ?? null,
+			];
+		}
+
+		// Insert the data into the database
+		$response = DB::table("aggregate.GENER43_2021_XPIC_BEAT_INDEX_REF")->insert($data);
+
+		// Return a success response
+		return response()->json(['success' => $response]);
 	}
 	}
 			

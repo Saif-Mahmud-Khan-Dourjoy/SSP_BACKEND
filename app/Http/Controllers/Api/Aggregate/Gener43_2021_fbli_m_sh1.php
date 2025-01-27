@@ -39,7 +39,7 @@ class Gener43_2021_fbli_m_sh1 extends Controller
 		// Retrieve the payload as an array of objects
 		$payload = $request->except('token');
 
-		
+
 
 		if (
 			!is_array($payload) || empty($payload)
@@ -66,7 +66,7 @@ class Gener43_2021_fbli_m_sh1 extends Controller
 			];
 		}
 
-		
+
 
 		// Insert the data into the database
 		$response = DB::table("aggregate.GENER43_2021_FBLI_M_SH1")->insert($data);
@@ -109,5 +109,70 @@ class Gener43_2021_fbli_m_sh1 extends Controller
 		} else {
 			return response()->json(['message' => 'Record not found.'], 404);
 		}
+	}
+
+
+
+	public function gener43_2021_fbli_m_sh1_update(Request $request)
+	{
+		$payload = $request->except('token');
+
+
+
+		if (
+			!is_array($payload) || empty($payload)
+		) {
+			return response()->json(['error' => 'Invalid payload format'], 400);
+		}
+
+		$responses = [];
+		foreach ($payload as $item) {
+			$data = [
+				"_URI" => $item["_URI"] ?? null,
+				"_CREATOR_URI_USER" => $item["_CREATOR_URI_USER"] ?? null,
+				"_CREATION_DATE" => $item["_CREATION_DATE"] ?? null,
+				"_LAST_UPDATE_URI_USER" => $item["_LAST_UPDATE_URI_USER"] ?? null,
+				"_LAST_UPDATE_DATE" => $item["_LAST_UPDATE_DATE"] ?? null,
+				"_PARENT_AURI" => $item["_PARENT_AURI"] ?? null,
+				"_ORDINAL_NUMBER" => $item["_ORDINAL_NUMBER"] ?? null,
+				"_TOP_LEVEL_AURI" => $item["_TOP_LEVEL_AURI"] ?? null,
+				"MOUZA1" => $item["MOUZA1"] ?? null,
+				"SURVEY_TYPES" => $item["SURVEY_TYPES"] ?? null,
+				"OTHERS_S_TYPES" => $item["OTHERS_S_TYPES"] ?? null,
+				"SHEET1" => $item["SHEET1"] ?? null,
+				"GENERATED_NOTE_NAME_40" => $item["GENERATED_NOTE_NAME_40"] ?? null,
+			];
+
+
+
+			// Check if the record exists using _URI
+			$existingRecord = DB::table("aggregate.GENER43_2021_FBLI_M_SH1")
+				->where("_URI", $data["_URI"])
+				->first();
+
+			if ($existingRecord) {
+				// Update the existing record
+				$response = DB::table("aggregate.GENER43_2021_FBLI_M_SH1")
+					->where("_URI", $data["_URI"])
+					->update($data);
+				$responses[] = [
+					"_URI" => $data["_URI"],
+					"action" => "updated",
+					"success" => $response > 0, // true if updated successfully
+				];
+			} else {
+				// Insert a new record
+				$response = DB::table("aggregate.GENER43_2021_FBLI_M_SH1")
+					->insert($data);
+				$responses[] = [
+					"_URI" => $data["_URI"],
+					"action" => "inserted",
+					"success" => $response, // true if inserted successfully
+				];
+			}
+		}
+
+		// Return a JSON response with all actions performed
+		return response()->json($responses);
 	}
 }

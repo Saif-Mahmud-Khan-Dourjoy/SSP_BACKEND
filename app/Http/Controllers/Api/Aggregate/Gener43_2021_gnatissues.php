@@ -107,4 +107,67 @@ class Gener43_2021_gnatissues extends Controller
 			return response()->json(['message' => 'Record not found.'], 404);
 		}
 	}
+
+
+	public function gener43_2021_gnatissues_update(Request $request)
+	{
+		$payload = $request->except('token');
+
+
+
+		if (
+			!is_array($payload) || empty($payload)
+		) {
+			return response()->json(['error' => 'Invalid payload format'], 400);
+		}
+
+		$responses = [];
+		foreach ($payload as $item) {
+			$data = [
+				"_URI" => $item["_URI"] ?? null,
+				"_CREATOR_URI_USER" => $item["_CREATOR_URI_USER"] ?? null,
+				"_CREATION_DATE" => $item["_CREATION_DATE"] ?? null,
+				"_LAST_UPDATE_URI_USER" => $item["_LAST_UPDATE_URI_USER"] ?? null,
+				"_LAST_UPDATE_DATE" => $item["_LAST_UPDATE_DATE"] ?? null,
+				"_PARENT_AURI" => $item["_PARENT_AURI"] ?? null,
+				"_ORDINAL_NUMBER" => $item["_ORDINAL_NUMBER"] ?? null,
+				"_TOP_LEVEL_AURI" => $item["_TOP_LEVEL_AURI"] ?? null,
+				"NATISSUES" => $item["NATISSUES"] ?? null,
+				"NAT_LEVEL" => $item["NAT_LEVEL"] ?? null,
+				"GENERATED_NOTE_NAME_83" => $item["GENERATED_NOTE_NAME_83"] ?? null,
+				"NAT_OTHER" => $item["NAT_OTHER"] ?? null,
+			];
+
+
+
+			// Check if the record exists using _URI
+			$existingRecord = DB::table("aggregate.GENER43_2021_GNATISSUES")
+			->where("_URI", $data["_URI"])
+			->first();
+
+			if ($existingRecord) {
+				// Update the existing record
+				$response = DB::table("aggregate.GENER43_2021_GNATISSUES")
+				->where("_URI", $data["_URI"])
+				->update($data);
+				$responses[] = [
+					"_URI" => $data["_URI"],
+					"action" => "updated",
+					"success" => $response > 0, // true if updated successfully
+				];
+			} else {
+				// Insert a new record
+				$response = DB::table("aggregate.GENER43_2021_GNATISSUES")
+				->insert($data);
+				$responses[] = [
+					"_URI" => $data["_URI"],
+					"action" => "inserted",
+					"success" => $response, // true if inserted successfully
+				];
+			}
+		}
+
+		// Return a JSON response with all actions performed
+		return response()->json($responses);
+	}
 }
