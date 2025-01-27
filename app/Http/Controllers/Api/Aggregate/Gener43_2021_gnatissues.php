@@ -170,4 +170,39 @@ class Gener43_2021_gnatissues extends Controller
 		// Return a JSON response with all actions performed
 		return response()->json($responses);
 	}
+
+	public function gener43_2021_gnatissues_single_update(Request $request, $uri)
+	{
+		$item = $request->except('token');
+
+		// Prepare the updated data
+		$updatedData = array(
+			"_URI" => $item["_URI"] ?? null,
+			"_CREATOR_URI_USER" => $item["_CREATOR_URI_USER"] ?? null,
+			"_CREATION_DATE" => $item["_CREATION_DATE"] ?? null,
+			"_LAST_UPDATE_URI_USER" => $item["_LAST_UPDATE_URI_USER"] ?? null,
+			"_LAST_UPDATE_DATE" => $item["_LAST_UPDATE_DATE"] ?? null,
+			"_PARENT_AURI" => $item["_PARENT_AURI"] ?? null,
+			"_ORDINAL_NUMBER" => $item["_ORDINAL_NUMBER"] ?? null,
+			"_TOP_LEVEL_AURI" => $item["_TOP_LEVEL_AURI"] ?? null,
+			"NATISSUES" => $item["NATISSUES"] ?? null,
+			"NAT_LEVEL" => $item["NAT_LEVEL"] ?? null,
+			"GENERATED_NOTE_NAME_83" => $item["GENERATED_NOTE_NAME_83"] ?? null,
+			"NAT_OTHER" => $item["NAT_OTHER"] ?? null,
+		);
+
+
+
+		// Perform the update operation
+		$response = DB::table("aggregate.GENER43_2021_GNATISSUES")
+		->where("_URI", $uri)
+			->update($updatedData);
+
+		// Return the response in JSON format
+		if ($response) {
+			return response()->json(['message' => 'Record updated successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
 }

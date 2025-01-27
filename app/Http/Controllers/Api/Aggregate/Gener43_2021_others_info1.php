@@ -113,8 +113,7 @@ use Illuminate\Http\Request;
 	public function Gener43_2021_others_info1_update(Request $request)
 	{
 		$payload = $request->except('token');
-
-      
+		
 
 		if (
 			!is_array($payload) || empty($payload)
@@ -174,6 +173,45 @@ use Illuminate\Http\Request;
 
 		// Return a JSON response with all actions performed
 		return response()->json($responses);
+	}
+
+	public function Gener43_2021_others_info1_single_update(Request $request, $uri)
+	{
+		$item = $request->except('token');
+
+		// Prepare the updated data
+		$updatedData = array(
+			"_URI" => $item["_URI"] ?? null,
+			"_CREATOR_URI_USER" => $item["_CREATOR_URI_USER"] ?? null,
+			"_CREATION_DATE" => $item["_CREATION_DATE"] ?? null,
+			"_LAST_UPDATE_URI_USER" => $item["_LAST_UPDATE_URI_USER"] ?? null,
+			"_LAST_UPDATE_DATE" => $item["_LAST_UPDATE_DATE"] ?? null,
+			"_ORDINAL_NUMBER" => $item["_ORDINAL_NUMBER"] ?? null,
+			"_PARENT_AURI" => $item["_PARENT_AURI"] ?? null,
+			"_TOP_LEVEL_AURI" => $item["_TOP_LEVEL_AURI"] ?? null,
+			"GENERATED_NOTE_NAME_115" => $item["GENERATED_NOTE_NAME_115"] ?? null,
+			"OTHERS_JOINING_DATE" => $item["OTHERS_JOINING_DATE"] ?? null,
+			"OTHERS_NID" => $item["OTHERS_NID"] ?? null,
+			"OTHERS_RANK" => $item["OTHERS_RANK"] ?? null,
+			"OTHERS_CELL" => $item["OTHERS_CELL"] ?? null,
+			"NAME_OF_OTHERS" => $item["NAME_OF_OTHERS"] ?? null,
+			"OTHERS_JOINING_DATE_RAW" => $item["OTHERS_JOINING_DATE_RAW"] ?? null,
+			"OTHERS_MAIL" => $item["OTHERS_MAIL"] ?? null,
+		);
+
+
+
+		// Perform the update operation
+		$response = DB::table("aggregate.GENER43_2021_OTHERS_INFO1")
+		->where("_URI", $uri)
+			->update($updatedData);
+
+		// Return the response in JSON format
+		if ($response) {
+			return response()->json(['message' => 'Record updated successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
 	}
 	}
 			

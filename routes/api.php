@@ -254,6 +254,10 @@ if (Request::input("token") == $token) {
 	Route::get('/gener43_2021_others_info1', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_others_info1@gener43_2021_others_info1_list');
 	Route::post('/gener43_2021_others_info1_create', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_others_info1@gener43_2021_others_info1_create');
 	Route::put('/gener43_2021_others_info1_update', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_others_info1@gener43_2021_others_info1_update');
+	Route::put('/gener43_2021_others_info1_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_others_info1@gener43_2021_others_info1_single_update');
+	
+	
+	
 	Route::delete('/gener43_2021_others_info1_delete/{uri}/{auri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_others_info1@gener43_2021_others_info1_delete');
 	Route::get('/gener43_2021_others_info1_id/{id}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_others_info1@gener43_2021_others_info1_id');
 	Route::get('/gener43_2021_overallnotes_ima_blb', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_overallnotes_ima_blb@gener43_2021_overallnotes_ima_blb_list');
@@ -374,6 +378,8 @@ if (Request::input("token") == $token) {
 	Route::get('/gener43_2021_fbli_m_sh1', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_fbli_m_sh1@gener43_2021_fbli_m_sh1_list');
 	Route::post('/gener43_2021_fbli_m_sh1_create', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_fbli_m_sh1@gener43_2021_fbli_m_sh1_create');
 	Route::put('/gener43_2021_fbli_m_sh1_update', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_fbli_m_sh1@gener43_2021_fbli_m_sh1_update');
+	Route::put('/gener43_2021_fbli_m_sh1_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_fbli_m_sh1@gener43_2021_fbli_m_sh1_single_update');
+	
 	Route::get('/gener43_2021_fbli_m_sh1_id/{id}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_fbli_m_sh1@gener43_2021_fbli_m_sh1_id');
 	Route::delete('/gener43_2021_fbli_m_sh1_delete/{uri}/{auri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_fbli_m_sh1@gener43_2021_fbli_m_sh1_delete');
 	Route::get('/gener43_2021_gnatissues_id/{id}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gnatissues@gener43_2021_gnatissues_id');
@@ -491,16 +497,21 @@ if (Request::input("token") == $token) {
 	Route::get('/gener43_2021_ghumissues', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_ghumissues@gener43_2021_ghumissues_list');
 	Route::post('/gener43_2021_ghumissues_create', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_ghumissues@gener43_2021_ghumissues_create');
 	Route::put('/gener43_2021_ghumissues_update', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_ghumissues@gener43_2021_ghumissues_update');
+	Route::put('/gener43_2021_ghumissues_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_ghumissues@gener43_2021_ghumissues_single_update');
+	
 	Route::delete('/gener43_2021_ghumissues_delete/{uri}/{auri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_ghumissues@gener43_2021_ghumissues_delete');
 	Route::get('/gener43_2021_gnatissues', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gnatissues@gener43_2021_gnatissues_list');
 	Route::post('/gener43_2021_gnatissues_create', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gnatissues@gener43_2021_gnatissues_create');
 	Route::put('/gener43_2021_gnatissues_update', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gnatissues@gener43_2021_gnatissues_update');
+	Route::put('/gener43_2021_gnatissues_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gnatissues@gener43_2021_gnatissues_single_update');
+
 	Route::delete('/gener43_2021_gnatissues_delete/{uri}/{auri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gnatissues@gener43_2021_gnatissues_delete');
 
 	Route::get('/gener43_2021_gvillages', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gvillages@gener43_2021_gvillages_list');
 	Route::get('/gener43_2021_gvillages_id/{id}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gvillages@gener43_2021_gvillages_id');
 	Route::post('/gener43_2021_gvillages_create', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gvillages@gener43_2021_gvillages_create');
 	Route::put('/gener43_2021_gvillages_update', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gvillages@gener43_2021_gvillages_update');
+	Route::put('/gener43_2021_gvillages_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gvillages@gener43_2021_gvillages_single_update');
 	Route::delete('/gener43_2021_gvillages_delete/{uri}/{auri}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_gvillages@gener43_2021_gvillages_delete');
 	Route::get('/gener43_2021_overallnotes_ima_bn', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_overallnotes_ima_bn@gener43_2021_overallnotes_ima_bn_list');
 	Route::post('/gener43_2021_overallnotes_ima_bn_create', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_overallnotes_ima_bn@gener43_2021_overallnotes_ima_bn_create');

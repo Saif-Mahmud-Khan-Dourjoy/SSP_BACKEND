@@ -175,4 +175,46 @@ class Gener43_2021_fbli_m_sh1 extends Controller
 		// Return a JSON response with all actions performed
 		return response()->json($responses);
 	}
+
+	public function gener43_2021_fbli_m_sh1_single_update(Request $request,$uri)
+	{
+		$item = $request->except('token');
+		
+		// Prepare the updated data
+		$updatedData = array(
+			"_URI" => $item["_URI"] ?? null,
+			"_CREATOR_URI_USER" => $item["_CREATOR_URI_USER"] ?? null,
+			"_CREATION_DATE" => $item["_CREATION_DATE"] ?? null,
+			"_LAST_UPDATE_URI_USER" => $item["_LAST_UPDATE_URI_USER"] ?? null,
+			"_LAST_UPDATE_DATE" => $item["_LAST_UPDATE_DATE"] ?? null,
+			"_PARENT_AURI" => $item["_PARENT_AURI"] ?? null,
+			"_ORDINAL_NUMBER" => $item["_ORDINAL_NUMBER"] ?? null,
+			"_TOP_LEVEL_AURI" => $item["_TOP_LEVEL_AURI"] ?? null,
+			"MOUZA1" => $item["MOUZA1"] ?? null,
+			"SURVEY_TYPES" => $item["SURVEY_TYPES"] ?? null,
+			"OTHERS_S_TYPES" => $item["OTHERS_S_TYPES"] ?? null,
+			"SHEET1" => $item["SHEET1"] ?? null,
+			"GENERATED_NOTE_NAME_40" => $item["GENERATED_NOTE_NAME_40"] ?? null,
+		);
+
+
+
+		// Perform the update operation
+		$response = DB::table("aggregate.GENER43_2021_FBLI_M_SH1")
+		->where("_URI", $uri)
+			->update($updatedData);
+
+		// Return the response in JSON format
+		if ($response) {
+			return response()->json(['message' => 'Record updated successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+		
+
+
+
+		
+		
+	}
 }
