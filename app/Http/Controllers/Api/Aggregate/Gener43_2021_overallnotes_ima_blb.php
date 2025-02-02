@@ -169,4 +169,13 @@ class Gener43_2021_overallnotes_ima_blb extends Controller
 
 		
 	}
+
+	public function gener43_2021_overallnotes_ima_blb_delete_all()
+	{
+		DB::table('aggregate.GENER43_2021_OVERALLNOTES_IMA_BLB')->delete();
+
+		return response()->json(['message' => 'All records deleted successfully.']);
+	}
+
+	
 }

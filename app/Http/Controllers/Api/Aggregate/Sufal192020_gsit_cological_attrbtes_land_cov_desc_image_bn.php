@@ -59,6 +59,8 @@ class Sufal192020_gsit_cological_attrbtes_land_cov_desc_image_bn extends Control
 		// ->get();
 
 		// return response()->json($triggers);
+
+		// return response()->json($triggers);
 		// 		$functionDefinition = DB::select("
 		//     SELECT pg_get_functiondef(p.oid)
 		//     FROM pg_proc p
@@ -81,16 +83,53 @@ class Sufal192020_gsit_cological_attrbtes_land_cov_desc_image_bn extends Control
 		// $currentUser = DB::select("SELECT current_user;");
 		// return response()->json($currentUser);
 
-		$sequenceOwner = DB::select("
-    SELECT n.nspname AS sequence_schema,
-           c.relname AS sequence_name,
-           r.rolname AS owner
-    FROM pg_class c
-    JOIN pg_namespace n ON n.oid = c.relnamespace
-    JOIN pg_roles r ON r.oid = c.relowner
-    WHERE c.relkind = 'S' AND c.relname = 'GENER43_2021_CORE_AUDIT_id_seq';
-");
+		// 		$sequenceOwner = DB::select("
+		//     SELECT n.nspname AS sequence_schema,
+		//            c.relname AS sequence_name,
+		//            r.rolname AS owner
+		//     FROM pg_class c
+		//     JOIN pg_namespace n ON n.oid = c.relnamespace
+		//     JOIN pg_roles r ON r.oid = c.relowner
+		//     WHERE c.relkind = 'S' AND c.relname = 'GENER43_2021_CORE_AUDIT_id_seq';
+		// ");
 
-		return response()->json($sequenceOwner);
+		// 		return response()->json($sequenceOwner);
+
+
+
+		try {
+			// Grant permissions on sequence
+			DB::statement('GRANT USAGE, SELECT, UPDATE ON SEQUENCE aggregate."GENER43_2021_CORE_AUDIT_id_seq" TO urbanit;');
+
+			// Grant ownership of the sequence (optional)
+			DB::statement('ALTER SEQUENCE aggregate."GENER43_2021_CORE_AUDIT_id_seq" OWNER TO urbanit;');
+
+			// Grant default privileges for future sequences
+			DB::statement('ALTER DEFAULT PRIVILEGES IN SCHEMA aggregate GRANT USAGE, SELECT, UPDATE ON SEQUENCES TO urbanit;');
+
+			// Grant permissions on the table
+			DB::statement('GRANT INSERT, SELECT, UPDATE ON aggregate."GENER43_2021_CORE_AUDIT" TO urbanit;');
+
+			// Grant schema permissions
+			DB::statement('GRANT USAGE ON SCHEMA aggregate TO urbanit;');
+
+			// Update the trigger function with SECURITY DEFINER
+			DB::statement('
+        CREATE OR REPLACE FUNCTION public.gener43_2021_core_update_trigger_fnc()
+        RETURNS trigger
+        LANGUAGE plpgsql
+        SECURITY DEFINER
+        AS $function$
+        BEGIN
+            -- Trigger logic here
+            RETURN NEW;
+        END;
+        $function$;
+    ');
+
+			return response()->json(['message' => 'Permissions and trigger function updated successfully.']);
+		} catch (\Exception $e) {
+			return response()->json(['error' => $e->getMessage()]);
+		}
 	}
 }

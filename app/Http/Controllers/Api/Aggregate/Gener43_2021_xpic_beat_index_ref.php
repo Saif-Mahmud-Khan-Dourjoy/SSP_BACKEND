@@ -150,5 +150,12 @@ use Illuminate\Http\Request;
 		// Return a success response
 		return response()->json(['success' => $response]);
 	}
+
+	public function gener43_2021_xpic_beat_index_ref_delete_all()
+	{
+		DB::table('aggregate.GENER43_2021_XPIC_BEAT_INDEX_REF')->delete();
+
+		return response()->json(['message' => 'All records deleted successfully.']);
+	}
 	}
 			

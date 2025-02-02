@@ -47,11 +47,11 @@ where email='$email'
 
 
 
-            "id" => 201,
-            "name" => "Sayed Bappy 2",
-            'email' => 'bappy2@gmail.com',
+            "id" => $request->input('id'),
+            "name" => $request->input('name'),
+            'email' => $request->input('email'),
             "email_verified_at" => null,
-            "password" => Hash::make('Bappy2@123'),
+            "password" => Hash::make($request->input('password')),
             "remember_token" => null,
             "current_team_id" => null,
             "profile_photo_path" => null,
@@ -62,10 +62,10 @@ where email='$email'
             "role_id" => 1,
             "office_level_id" => 1,
             "is_active" => true,
-            "beat_code" => 1000,
-            "range_code" => 100,
-            "division_code" => 10,
-            "circle_code" => 1,
+            "beat_code" => 1001,
+            "range_code" => 101,
+            "division_code" => 11,
+            "circle_code" => 2,
             "created_by" => 1,
             "updated_by" => 1
         ]);

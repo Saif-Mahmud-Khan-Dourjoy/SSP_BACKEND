@@ -149,4 +149,11 @@ class Gener43_2021_overallnotes_ima_ref extends Controller
 		// Return a success response
 		return response()->json(['success' => $response]);
 	}
+
+	public function gener43_2021_overallnotes_ima_ref_delete_all()
+	{
+		DB::table('aggregate.GENER43_2021_OVERALLNOTES_IMA_REF')->delete();
+
+		return response()->json(['message' => 'All records deleted successfully.']);
+	}
 }

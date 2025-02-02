@@ -172,77 +172,39 @@ class Gener43_2021_core extends Controller
         DB::EnableQueryLog();
         $sql = "
             select
-                gen.\"_URI\",
-                gen.\"GUSER_DCOLLECTION_RAW\",
-                gen.\"GUSER_USER\",
-                gen.\"GUSER_USER_CELL\",
-                gen.\"GUSER_BEAT_ADDRESS\",
-                gen.\"GUSER_TLOC_FD_BEAT_POINT_LAT\",
-                gen.\"GUSER_TLOC_FD_BEAT_POINT_LNG\",
+                gen.*,
                 jfb.\"name\" as FBLI_FA_TLOC_FD_BEAT, 
                 jfc.\"name\"  as FBLI_FA_TLOC_FD_CIR,
                 jfd.\"name\" as FBLI_FA_TLOC_FD_DIVISION,
                 jfr.\"name\" as FBLI_FA_TLOC_FD_RANGE,
-                gen.\"FBLI_FA_TLOC_FD_BLOCK\",
-                gen.\"FBLI_FA_TLOC_FD_CHAR\",
+                
                 jad.\"name\" as FBLI_CA_TLOC_AD_DIVISION,
                 jadd.\"name\" as FBLI_CA_TLOC_AD_DISTRICT,
-                gen.\"FBLI_CA_UNION\",
+                
                 upz.\"VALUE\" as UPAZILA,
-                gen.\"LAND_STATISTICS_BEAT_LAND_INFO_RESERVED_FOREST_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_INFO_SECTION_6_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_INFO_SECTION_4_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_INFO_PROTECTED_FOREST_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_INFO_VESTED_FOREST_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_INFO_AQUIRED_FOREST_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_INFO_OTHER_FORESTAREA_HA\",
-                gen.\"LAND_STATISTICS_TOTAL_LEGAL_LAND_STATS\",
-                gen.\"LAND_STATISTICS_BEAT_MGT_APPROACH_PA_NP_HA\",
-                gen.\"LAND_STATISTICS_BEAT_MGT_APPROACH_PA_ECOPARK_HA\",
-                gen.\"LAND_STATISTICS_BEAT_MGT_APPROACH_PA_SAFARIPARK_HA\",
-                gen.\"LAND_STATISTICS_BEAT_MGT_APPROACH_PA_SBCA_HA\",
-                gen.\"LAND_STATISTICS_BEAT_MGT_APPROACH_OTHER_PA_AREA_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_BIO_NATURAL_TO_DC_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_BIO_SOCIAL_ACCRETED_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_BIO_SOCIAL_ACCRETED_SKM\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_BIO_NON_PP_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_BIO_NON_PP_SKM\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_BIO_OTHER_PLANT_HA\",
-                gen.\"LAND_STATISTICS_BEAT_LAND_BIO_OTHER_PLANT_SKM\",
-                gen.\"RO_INFO_NAME_OF_RO\",
-                gen.\"RO_INFO_RO_RANK\",
-                gen.\"RO_INFO_RO_JOINING_DATE_RAW\",
-                gen.\"RO_INFO_RO_CELL\",
-                gen.\"RO_INFO_RO_NID\",
-                gen.\"RO_INFO_RO_MAIL\",
-                gen.\"BO_INFO_BO_RANK\",
-                gen.\"BO_INFO_BO_JOINING_DATE_RAW\",
-                gen.\"BO_INFO_BO_CELL\",
-                gen.\"BO_INFO_BO_NID\",
-                gen.\"BO_INFO_BO_MAIL\",
-                gen.\"LAND_TRANSPORTS_MOTORB_AVAIL\",
+                
                 lc1.\"name\" as LAND_TRANSPORTS_MOTORB_CONDITION,
-                gen.\"LAND_TRANSPORTS_BICYCLE_AVAIL\",
+                
                 lc2.\"name\" as LAND_TRANSPORTS_BICYCLE_CONDITION,
-                gen.\"LAND_TRANSPORTS_OTHERS_LAND_TRA_AVAIL\",
+                
                 lc3.\"name\" as LAND_TRANSPORTS_OTHERS_LAND_TRA_CONDITION,
-                gen.\"LOGISTICS3_SPEEDBOAT_AVAIL\",
+                
                 lc4.\"name\" as LOGISTICS3_SPEEDBOAT_CONDITION,
-                gen.\"LOGISTICS3_TVESSEL_AVAIL\",
+                
                 lc5.\"name\" as LOGISTICS3_TVESSEL_CONDITION,
-                gen.\"LOGISTICS3_COUNTRYBOAT_AVAIL\",
+                
                 lc6.\"name\" as LOGISTICS3_COUNTRYBOAT_CONDITION,
-                gen.\"LOGISTICS3_OTHERS_WATER_TRA_AVAIL\",
+                
                 lc7.\"name\" as LOGISTICS3_OTHERS_WATER_TRA_CONDITION,
-                gen.\"LOGISTICS4_TFIREARMS_303RIFLE_AVAIL\",
+                
                 lc8.\"name\" as LOGISTICS4_RIFLE303_CONDITION,
-                gen.\"LOGISTICS4_TFIREARMS_SLR_AVAIL\",
+                
                 lc9.\"name\" as LOGISTICS4_SLR_CONDITION,
-                gen.\"LOGISTICS4_TFIREARMS_SHORTGUN_AVAIL\",
+                
                 lc10.\"name\" as LOGISTICS4_SHORTGUN_CONDITION,
-                gen.\"LOGISTICS4_TFIREARMS_CHINESERIFLE_AVAIL\",
+                
                 lc11.\"name\" as LOGISTICS4_CHINESERIFLE_CONDITION,
-                gen.\"LOGISTICS4_OTHERS_WATER_TRA_AVAIL\",
+                
                 lc12.\"name\" as LOGISTICS4_OTHERS_WATER_TRA_CONDITION
                 from 
                 
@@ -506,7 +468,4 @@ class Gener43_2021_core extends Controller
             return response()->json(['message' => 'Something went wrong'], 404);
         }
     }
-
-
-   
 }
