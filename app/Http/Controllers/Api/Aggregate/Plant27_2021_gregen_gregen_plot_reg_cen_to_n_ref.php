@@ -87,10 +87,10 @@ use Illuminate\Http\Request;
 	}
 
 
-	public function plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_update(Request $request, $auri)
+	public function plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_update(Request $request, $tlauri)
 	{
 		DB::table('aggregate.PLANT27_2021_GREGEN_GREGEN_PLOT_REG_CEN_TO_N_REF')
-		->where('_TOP_LEVEL_AURI', $auri)->delete();
+		->where('_TOP_LEVEL_AURI', $tlauri)->delete();
 
 		// Retrieve the payload as an array of objects, excluding the token
 		$payload = $request->except('token');

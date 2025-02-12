@@ -124,9 +124,9 @@ use Illuminate\Http\Request;
 		return response()->json($r);
 	}
 
-	public function plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_update(Request $request, $auri)
+	public function plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_update(Request $request, $tlauri)
 	{
-		DB::table('aggregate.PLANT27_2021_GREGEN_GREGEN_PLOT_REG_CEN_TO_S_BLB')->where('_TOP_LEVEL_AURI', $auri)->delete();
+		DB::table('aggregate.PLANT27_2021_GREGEN_GREGEN_PLOT_REG_CEN_TO_S_BLB')->where('_TOP_LEVEL_AURI', $tlauri)->delete();
 
 		// Retrieve the payload as an array of objects, excluding the token
 		$payload = $request->except('token');

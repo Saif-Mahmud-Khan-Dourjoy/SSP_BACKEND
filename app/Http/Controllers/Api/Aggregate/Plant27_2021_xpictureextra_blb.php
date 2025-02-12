@@ -101,9 +101,9 @@ use Illuminate\Http\Request;
 	}
 
 
-	public function plant27_2021_xpictureextra_blb_update(Request $request, $auri)
+	public function plant27_2021_xpictureextra_blb_update(Request $request, $tlauri)
 	{
-		DB::table('aggregate.PLANT27_2021_XPICTUREEXTRA_BLB')->where('_TOP_LEVEL_AURI', $auri)->delete();
+		DB::table('aggregate.PLANT27_2021_XPICTUREEXTRA_BLB')->where('_TOP_LEVEL_AURI', $tlauri)->delete();
 
 		// Retrieve the payload as an array of objects, excluding the token
 		$payload = $request->except('token');
