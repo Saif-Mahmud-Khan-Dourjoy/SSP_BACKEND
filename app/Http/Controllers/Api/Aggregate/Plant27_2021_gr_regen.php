@@ -103,6 +103,7 @@ class Plant27_2021_gr_regen extends Controller
 		$query = DB::table('aggregate.PLANT27_2021_GR_REGEN')
 		->where('_TOP_LEVEL_AURI', $tlauri)
 		->get();
+		
 		return response()->json($query);
 	}
 }
