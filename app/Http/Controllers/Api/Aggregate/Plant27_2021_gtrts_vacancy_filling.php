@@ -77,5 +77,51 @@ use Illuminate\Http\Request;
 
 		return response()->json($query);
 	}
+
+	public function plant27_2021_gtrts_vacancy_filling_delete($uri, $tlauri)
+	{
+		$deleted = DB::table("aggregate.PLANT27_2021_GTRTS_VACANCY_FILLING")
+		->where('_URI', $uri)->where('_TOP_LEVEL_AURI', $tlauri)->delete();
+
+		if ($deleted) {
+			return response()->json(['message' => 'Record deleted successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
+
+	public function plant27_2021_gtrts_vacancy_filling_single_update(Request $request, $uri)
+	{
+		$item = $request->except('token');
+
+		// Prepare the updated data
+		$updatedData = array(
+			"_URI" => $item["_uri"] ?? null,
+			"_CREATOR_URI_USER" => $item["_creator_uri_user"] ?? null,
+			"_CREATION_DATE" => $item["_creation_date"] ?? null,
+			"_LAST_UPDATE_URI_USER" => $item["_last_update_uri_user"] ?? null,
+			"_LAST_UPDATE_DATE" => $item["_last_update_date"] ?? null,
+			"_PARENT_AURI" => $item["_parent_auri"] ?? null,
+			"_ORDINAL_NUMBER" => $item["_ordinal_number"] ?? null,
+			"_TOP_LEVEL_AURI" => $item["_top_level_auri"] ?? null,
+			"GENERATED_NOTE_NAME_242" => $item["generated_note_name_242"] ?? null,
+			"FILLING_YEAR_RAW" => $item["filling_year_raw"] ?? null,
+			"FILLING_YEAR" => $item["filling_year"] ?? null,
+		);
+
+
+
+		// Perform the update operation
+		$response = DB::table("aggregate.PLANT27_2021_GTRTS_VACANCY_FILLING")
+		->where("_URI", $uri)
+		->update($updatedData);
+
+		// Return the response in JSON format
+		if ($response) {
+			return response()->json(['message' => 'Record updated successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
 	}
 			

@@ -134,5 +134,17 @@ use Illuminate\Http\Request;
 		// Return a success response
 		return response()->json(['success' => $response]);
 	}
+
+	public function plant27_2021_xpictureextra_blb_delete($uri, $tlauri)
+	{
+		$deleted = DB::table("aggregate.PLANT27_2021_XPICTUREEXTRA_BLB")
+		->where('_URI', $uri)->where('_TOP_LEVEL_AURI', $tlauri)->delete();
+
+		if ($deleted) {
+			return response()->json(['message' => 'Record deleted successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
 	}
 			

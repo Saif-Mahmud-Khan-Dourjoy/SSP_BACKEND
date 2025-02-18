@@ -83,5 +83,55 @@ use Illuminate\Http\Request;
 		->get();
 		return response()->json($query);
 	}
+
+
+	public function plant27_2021_rphotoextra_delete($uri, $tlauri)
+	{
+		$deleted = DB::table("aggregate.PLANT27_2021_RPHOTOEXTRA")
+		->where('_URI', $uri)->where('_TOP_LEVEL_AURI', $tlauri)->delete();
+
+		if ($deleted) {
+			return response()->json(['message' => 'Record deleted successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
+
+	public function plant27_2021_rphotoextra_single_update(Request $request, $uri)
+	{
+		$item = $request->except('token');
+
+		// Prepare the updated data
+		$updatedData = array(
+			"_URI" => $item["_uri"] ?? null,
+			"_CREATOR_URI_USER" => $item["_creator_uri_user"] ?? null,
+			"_CREATION_DATE" => $item["_creation_date"] ?? null,
+			"_LAST_UPDATE_URI_USER" => $item["_last_update_uri_user"] ?? null,
+			"_LAST_UPDATE_DATE" => $item["_last_update_date"] ?? null,
+			"_PARENT_AURI" => $item["_parent_auri"] ?? null,
+			"_ORDINAL_NUMBER" => $item["_ordinal_number"] ?? null,
+			"_TOP_LEVEL_AURI" => $item["_top_level_auri"] ?? null,
+			"PPICLOCATIONEXTRA_ALT" => $item["ppiclocationextra_alt"] ?? null,
+			"XPIC_BEARING" => $item["xpic_bearing"] ?? null,
+			"GENERATED_NOTE_NAME_65" => $item["generated_note_name_65"] ?? null,
+			"PPICLOCATIONEXTRA_LNG" => $item["ppiclocationextra_lng"] ?? null,
+			"PPICLOCATIONEXTRA_ACC" => $item["ppiclocationextra_acc"] ?? null,
+			"PPICLOCATIONEXTRA_LAT" => $item["ppiclocationextra_lat"] ?? null,
+		);
+
+
+
+		// Perform the update operation
+		$response = DB::table("aggregate.PLANT27_2021_RPHOTOEXTRA")
+		->where("_URI", $uri)
+		->update($updatedData);
+
+		// Return the response in JSON format
+		if ($response) {
+			return response()->json(['message' => 'Record updated successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
 	}
 			

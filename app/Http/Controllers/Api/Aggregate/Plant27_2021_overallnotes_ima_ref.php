@@ -77,5 +77,17 @@ use Illuminate\Http\Request;
 		$q = DB::GetQueryLog();
 		return response()->json($query);
 	}
+
+	public function plant27_2021_overallnotes_ima_ref_delete($uri, $tlauri)
+	{
+		$deleted = DB::table("aggregate.PLANT27_2021_OVERALLNOTES_IMA_REF")
+		->where('_URI', $uri)->where('_TOP_LEVEL_AURI', $tlauri)->delete();
+
+		if ($deleted) {
+			return response()->json(['message' => 'Record deleted successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
 	}
 			

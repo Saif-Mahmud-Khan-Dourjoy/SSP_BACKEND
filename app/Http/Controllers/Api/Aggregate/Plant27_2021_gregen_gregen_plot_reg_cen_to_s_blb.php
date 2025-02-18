@@ -161,5 +161,17 @@ use Illuminate\Http\Request;
 		// Return a success response
 		return response()->json(['success' => $response]);
 	}
+
+	public function plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_delete($uri, $tlauri)
+	{
+		$deleted = DB::table("aggregate.PLANT27_2021_GREGEN_GREGEN_PLOT_REG_CEN_TO_S_BLB")
+		->where('_URI', $uri)->where('_TOP_LEVEL_AURI', $tlauri)->delete();
+
+		if ($deleted) {
+			return response()->json(['message' => 'Record deleted successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
 	}
 			

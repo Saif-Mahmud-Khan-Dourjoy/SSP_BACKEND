@@ -279,13 +279,27 @@ if (Request::input("token") == $token) {
 	Route::post('/gener43_2021_overallnotes_ima_blb_bulk_create', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_overallnotes_ima_blb@gener43_2021_overallnotes_ima_blb_bulk_create');
 	Route::get('/gener43_2021_overallnotes_ima_blb_id/{id}', '\App\Http\Controllers\Api\Aggregate\Gener43_2021_overallnotes_ima_blb@gener43_2021_overallnotes_ima_blb_id');
 	Route::get('/plant27_2021_core_all', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_core@plant27_2021_core_all');
+	Route::get('/plant27_2021_core_uri/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_core@plant27_2021_core_uri');
+
+	Route::put('/plant27_2021_core_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_core@plant27_2021_core_update');
+
 	Route::get('/plant27_2021_core_list/{id}/{id2}/{id3}/{id4}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_core@plant27_2021_core_list');
 	Route::post('/plant27_2021_core_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_core@plant27_2021_core_create');
 	Route::get('/plant27_2021_filling_month', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_filling_month@plant27_2021_filling_month_list');
 	Route::post('/plant27_2021_filling_month_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_filling_month@plant27_2021_filling_month_create');
+	Route::post('/plant27_2021_filling_month_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_filling_month@plant27_2021_filling_month_bulk_create');
+
+	Route::get('/plant27_2021_filling_month_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_filling_month@plant27_2021_filling_month_tlauri');
+
+	Route::put('/plant27_2021_filling_month_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_filling_month@plant27_2021_filling_month_single_update');
+
+	Route::delete('/plant27_2021_filling_month_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_filling_month@plant27_2021_filling_month_delete');
+
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb_list');
 	Route::post('/plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb_create');
 	Route::put('/plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb_update');
+	Route::delete('/plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb_delete');
+
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_e_blb_tlauri');
 
 
@@ -296,6 +310,8 @@ if (Request::input("token") == $token) {
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_list');
 	Route::post('/plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_create');
 	Route::put('/plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_update');
+	Route::delete('/plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_delete');
+
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_n_ref_tlauri');
 	Route::get('/plant27_2021_gtrts_planting_planting_month', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_planting_planting_month@plant27_2021_gtrts_planting_planting_month_list');
 	Route::post('/plant27_2021_gtrts_planting_planting_month_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_planting_planting_month@plant27_2021_gtrts_planting_planting_month_create');
@@ -304,11 +320,19 @@ if (Request::input("token") == $token) {
 	Route::post('/plant27_2021_gtrts_vacancy_filling_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_vacancy_filling@plant27_2021_gtrts_vacancy_filling_bulk_create');
 
 	Route::get('/plant27_2021_gtrts_vacancy_filling_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_vacancy_filling@plant27_2021_gtrts_vacancy_filling_tlauri');
+	Route::delete('/plant27_2021_gtrts_vacancy_filling_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_vacancy_filling@plant27_2021_gtrts_vacancy_filling_delete');
+
+	Route::put('/plant27_2021_gtrts_vacancy_filling_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_vacancy_filling@plant27_2021_gtrts_vacancy_filling_single_update');
+
 
 	Route::get('/plant27_2021_gtrts_weeding', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_weeding@plant27_2021_gtrts_weeding_list');
 	Route::post('/plant27_2021_gtrts_weeding_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_weeding@plant27_2021_gtrts_weeding_create');
 	Route::post('/plant27_2021_gtrts_weeding_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_weeding@plant27_2021_gtrts_weeding_bulk_create');
 	Route::get('/plant27_2021_gtrts_weeding_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_weeding@plant27_2021_gtrts_weeding_tlauri');
+	Route::delete('/plant27_2021_gtrts_weeding_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_weeding@plant27_2021_gtrts_weeding_delete');
+
+	Route::put('/plant27_2021_gtrts_weeding_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_weeding@plant27_2021_gtrts_weeding_single_update');
+
 
 
 	Route::get('/sufal192020_overallnotes_ima_bn', '\App\Http\Controllers\Api\Aggregate\Sufal192020_overallnotes_ima_bn@sufal192020_overallnotes_ima_bn_list');
@@ -597,15 +621,23 @@ if (Request::input("token") == $token) {
 	Route::post('/plant27_2021_community_month_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_community_month@plant27_2021_community_month_create');
 	Route::post('/plant27_2021_community_month_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_community_month@plant27_2021_community_month_bulk_create');
 	Route::get('/plant27_2021_community_month_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_community_month@plant27_2021_community_month_tlauri');
+	Route::put('/plant27_2021_community_month_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_community_month@plant27_2021_community_month_single_update');
+	Route::delete('/plant27_2021_community_month_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_community_month@plant27_2021_community_month_delete');
+
+
+
 
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref_list');
 	Route::post('/plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref_create');
 	Route::put('/plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref_update');
+	Route::delete('/plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref_delete');
+
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_e_ref_tlauri');
 
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb_list');
 	Route::post('/plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb_create');
 	Route::put('/plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb_update');
+	Route::delete('/plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb_delete');
 
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_n_blb_tlauri');
 
@@ -616,15 +648,20 @@ if (Request::input("token") == $token) {
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_list');
 	Route::post('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_create');
 	Route::put('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_update');
+	Route::delete('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_delete');
+
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_s_blb_tlauri');
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_bn', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_bn@plant27_2021_gregen_gregen_plot_reg_cen_to_s_bn_list');
 	Route::post('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_bn_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_bn@plant27_2021_gregen_gregen_plot_reg_cen_to_s_bn_create');
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref_list');
 	Route::post('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref_create');
 	Route::put('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref_update');
+	Route::delete('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref_delete');
+
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_s_ref_tlauri');
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb_list');
 	Route::post('/plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb_create');
+	Route::delete('/plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb_delete');
 
 	Route::put('/plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb@plant27_2021_gregen_gregen_plot_reg_cen_to_w_blb_update');
 
@@ -634,11 +671,17 @@ if (Request::input("token") == $token) {
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref_list');
 	Route::post('/plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref_create');
 	Route::put('/plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref_update');
+	Route::delete('/plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref_delete');
+
 	Route::get('/plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref@plant27_2021_gregen_gregen_plot_reg_cen_to_w_ref_tlauri');
 
 	Route::get('/plant27_2021_gregen_spp_regen', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_spp_regen@plant27_2021_gregen_spp_regen_list');
 	Route::post('/plant27_2021_gregen_spp_regen_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_spp_regen@plant27_2021_gregen_spp_regen_create');
 	Route::post('/plant27_2021_gregen_spp_regen_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_spp_regen@plant27_2021_gregen_spp_regen_bulk_create');
+	Route::delete('/plant27_2021_gregen_spp_regen_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_spp_regen@plant27_2021_gregen_spp_regen_delete');
+
+	Route::put('/plant27_2021_gregen_spp_regen_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_spp_regen@plant27_2021_gregen_spp_regen_single_update');
+
 
 	Route::get('/plant27_2021_gregen_spp_regen_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gregen_spp_regen@plant27_2021_gregen_spp_regen_tlauri');
 
@@ -646,6 +689,10 @@ if (Request::input("token") == $token) {
 	Route::post('/plant27_2021_gr_regen_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gr_regen@plant27_2021_gr_regen_create');
 	Route::post('/plant27_2021_gr_regen_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gr_regen@plant27_2021_gr_regen_bulk_create');
 	Route::get('/plant27_2021_gr_regen_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gr_regen@plant27_2021_gr_regen_tlauri');
+	Route::delete('/plant27_2021_gr_regen_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gr_regen@plant27_2021_gr_regen_delete');
+
+	Route::put('/plant27_2021_gr_regen_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gr_regen@plant27_2021_gr_regen_single_update');
+
 
 
 	Route::get('/plant27_2021_gtrts_climber_cutting_climber_month', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_climber_cutting_climber_month@plant27_2021_gtrts_climber_cutting_climber_month_list');
@@ -655,6 +702,10 @@ if (Request::input("token") == $token) {
 	Route::post('/plant27_2021_gtrts_community_protection_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_community_protection@plant27_2021_gtrts_community_protection_bulk_create');
 
 	Route::get('/plant27_2021_gtrts_community_protection_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_community_protection@plant27_2021_gtrts_community_protection_tlauri');
+	Route::delete('/plant27_2021_gtrts_community_protection_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_community_protection@plant27_2021_gtrts_community_protection_delete');
+
+	Route::put('/plant27_2021_gtrts_community_protection_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_gtrts_community_protection@plant27_2021_gtrts_community_protection_single_update');
+
 
 
 
@@ -670,15 +721,25 @@ if (Request::input("token") == $token) {
 	Route::post('/plant27_2021_location_data_ca_tloc_ad_upzilla_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_ca_tloc_ad_upzilla@plant27_2021_location_data_ca_tloc_ad_upzilla_create');
 	Route::post('/plant27_2021_location_data_ca_tloc_ad_upzilla_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_ca_tloc_ad_upzilla@plant27_2021_location_data_ca_tloc_ad_upzilla_bulk_create');
 	Route::get('/plant27_2021_location_data_ca_tloc_ad_upzilla_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_ca_tloc_ad_upzilla@plant27_2021_location_data_ca_tloc_ad_upzilla_tlauri');
+	Route::delete('/plant27_2021_location_data_ca_tloc_ad_upzilla_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_ca_tloc_ad_upzilla@plant27_2021_location_data_ca_tloc_ad_upzilla_delete');
+
+	Route::put('/plant27_2021_location_data_ca_tloc_ad_upzilla_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_ca_tloc_ad_upzilla@plant27_2021_location_data_ca_tloc_ad_upzilla_single_update');
+
 	Route::get('/plant27_2021_location_data_m_sh1', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_m_sh1@plant27_2021_location_data_m_sh1_list');
 	Route::post('/plant27_2021_location_data_m_sh1_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_m_sh1@plant27_2021_location_data_m_sh1_create');
 	Route::post('/plant27_2021_location_data_m_sh1_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_m_sh1@plant27_2021_location_data_m_sh1_bulk_create');
 	Route::get('/plant27_2021_location_data_m_sh1_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_m_sh1@plant27_2021_location_data_m_sh1_tlauri');
+	Route::put('/plant27_2021_location_data_m_sh1_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_m_sh1@plant27_2021_location_data_m_sh1_single_update');
+
+	Route::delete('/plant27_2021_location_data_m_sh1_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_location_data_m_sh1@plant27_2021_location_data_m_sh1_delete');
+
 	Route::get('/plant27_2021_overallnotes_ima_blb', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_overallnotes_ima_blb@plant27_2021_overallnotes_ima_blb_list');
 	Route::post('/plant27_2021_overallnotes_ima_blb_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_overallnotes_ima_blb@plant27_2021_overallnotes_ima_blb_create');
 	Route::put('/plant27_2021_overallnotes_ima_blb_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_overallnotes_ima_blb@plant27_2021_overallnotes_ima_blb_update');
 
 	Route::get('/plant27_2021_overallnotes_ima_blb_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_overallnotes_ima_blb@plant27_2021_overallnotes_ima_blb_tlauri');
+	Route::delete('/plant27_2021_overallnotes_ima_blb_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_overallnotes_ima_blb@plant27_2021_overallnotes_ima_blb_delete');
+
 
 	Route::get('/plant27_2021_overallnotes_ima_bn', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_overallnotes_ima_bn@plant27_2021_overallnotes_ima_bn_list');
 	Route::post('/plant27_2021_overallnotes_ima_bn_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_overallnotes_ima_bn@plant27_2021_overallnotes_ima_bn_create');
@@ -687,30 +748,50 @@ if (Request::input("token") == $token) {
 	Route::put('/plant27_2021_overallnotes_ima_ref_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_overallnotes_ima_ref@plant27_2021_overallnotes_ima_ref_update');
 
 	Route::get('/plant27_2021_overallnotes_ima_ref_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_overallnotes_ima_ref@plant27_2021_overallnotes_ima_ref_tlauri');
+	Route::delete('/plant27_2021_overallnotes_ima_ref_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_overallnotes_ima_ref@plant27_2021_overallnotes_ima_ref_delete');
+
 
 	Route::get('/plant27_2021_planting_plan_gplanting_gspp', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_planting_plan_gplanting_gspp@plant27_2021_planting_plan_gplanting_gspp_list');
 	Route::post('/plant27_2021_planting_plan_gplanting_gspp_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_planting_plan_gplanting_gspp@plant27_2021_planting_plan_gplanting_gspp_create');
 	Route::post('/plant27_2021_planting_plan_gplanting_gspp_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_planting_plan_gplanting_gspp@plant27_2021_planting_plan_gplanting_gspp_bulk_create');
 	Route::get('/plant27_2021_planting_plan_gplanting_gspp_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_planting_plan_gplanting_gspp@plant27_2021_planting_plan_gplanting_gspp_tlauri');
+	Route::put('/plant27_2021_planting_plan_gplanting_gspp_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_planting_plan_gplanting_gspp@plant27_2021_planting_plan_gplanting_gspp_single_update');
+
+	Route::delete('/plant27_2021_planting_plan_gplanting_gspp_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_planting_plan_gplanting_gspp@plant27_2021_planting_plan_gplanting_gspp_delete');
+
 
 
 	Route::get('/plant27_2021_rphotoextra', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_rphotoextra@plant27_2021_rphotoextra_list');
 	Route::post('/plant27_2021_rphotoextra_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_rphotoextra@plant27_2021_rphotoextra_create');
 	Route::get('/plant27_2021_rphotoextra_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_rphotoextra@plant27_2021_rphotoextra_tlauri');
+	Route::delete('/plant27_2021_rphotoextra_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_rphotoextra@plant27_2021_rphotoextra_delete');
+
+	Route::put('/plant27_2021_rphotoextra_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_rphotoextra@plant27_2021_rphotoextra_single_update');
+
 	Route::post('/plant27_2021_rphotoextra_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_rphotoextra@plant27_2021_rphotoextra_bulk_create');
 	Route::get('/plant27_2021_s_site', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_s_site@plant27_2021_s_site_list');
 	Route::post('/plant27_2021_s_site_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_s_site@plant27_2021_s_site_create');
 	Route::post('/plant27_2021_s_site_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_s_site@plant27_2021_s_site_bulk_create');
 	Route::get('/plant27_2021_s_site_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_s_site@plant27_2021_s_site_tlauri');
+	Route::delete('/plant27_2021_s_site_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_s_site@plant27_2021_s_site_delete');
+
+	Route::put('/plant27_2021_s_site_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_s_site@plant27_2021_s_site_single_update');
+
 
 	Route::get('/plant27_2021_weeding_month', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_weeding_month@plant27_2021_weeding_month_list');
 	Route::post('/plant27_2021_weeding_month_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_weeding_month@plant27_2021_weeding_month_create');
 	Route::post('/plant27_2021_weeding_month_bulk_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_weeding_month@plant27_2021_weeding_month_bulk_create');
 	Route::get('/plant27_2021_weeding_month_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_weeding_month@plant27_2021_weeding_month_tlauri');
+	Route::delete('/plant27_2021_weeding_month_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_weeding_month@plant27_2021_weeding_month_delete');
+
+	Route::put('/plant27_2021_weeding_month_single_update/{uri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_weeding_month@plant27_2021_weeding_month_single_update');
+
 
 	Route::get('/plant27_2021_xpictureextra_blb', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_xpictureextra_blb@plant27_2021_xpictureextra_blb_list');
 	Route::post('/plant27_2021_xpictureextra_blb_create', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_xpictureextra_blb@plant27_2021_xpictureextra_blb_create');
 	Route::put('/plant27_2021_xpictureextra_blb_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_xpictureextra_blb@plant27_2021_xpictureextra_blb_update');
+	Route::delete('/plant27_2021_xpictureextra_blb_delete/{uri}/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_xpictureextra_blb@plant27_2021_xpictureextra_blb_delete');
+
 	Route::get('/plant27_2021_xpictureextra_blb_tlauri/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_xpictureextra_blb@plant27_2021_xpictureextra_blb_tlauri');
 
 	Route::get('/plant27_2021_xpictureextra_bn', '\App\Http\Controllers\Api\Aggregate\Plant27_2021_xpictureextra_bn@plant27_2021_xpictureextra_bn_list');

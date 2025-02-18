@@ -104,4 +104,17 @@ class Plant27_2021_overallnotes_ima_blb extends Controller
 
 		return response()->json($r);
 	}
+
+
+	public function plant27_2021_overallnotes_ima_blb_delete($uri, $tlauri)
+	{
+		$deleted = DB::table("aggregate.PLANT27_2021_OVERALLNOTES_IMA_BLB")
+		->where('_URI', $uri)->where('_TOP_LEVEL_AURI', $tlauri)->delete();
+
+		if ($deleted) {
+			return response()->json(['message' => 'Record deleted successfully.']);
+		} else {
+			return response()->json(['message' => 'Record not found.'], 404);
+		}
+	}
 }
