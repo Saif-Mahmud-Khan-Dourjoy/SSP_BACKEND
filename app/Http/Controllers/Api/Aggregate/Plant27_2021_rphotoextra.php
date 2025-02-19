@@ -26,7 +26,9 @@ use Illuminate\Http\Request;
 "PPICLOCATIONEXTRA_LAT" => $request->input("ppiclocationextra_lat"),
 
 			);
-			$insert_id = DB::table("aggregate.PLANT27_2021_RPHOTOEXTRA")->insertGetId($data);
+			// $insert_id = DB::table("aggregate.PLANT27_2021_RPHOTOEXTRA")->insertGetId($data);
+			// Use insert() instead of insertGetId()
+    		$inserted = DB::table("aggregate.PLANT27_2021_RPHOTOEXTRA")->insert($data);
 			return response()->json($insert_id);
 		}
 		public function plant27_2021_rphotoextra_list(){
