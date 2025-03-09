@@ -1,38 +1,41 @@
 <?php
-	namespace App\Http\Controllers\Api\Aggregate;
 
-	use App\Http\Controllers\Controller;
-	use DB;
+namespace App\Http\Controllers\Api\Aggregate;
+
+use App\Http\Controllers\Controller;
+use DB;
 use Illuminate\Http\Request;
 
-	class Plant27_2021_overallnotes_ima_ref extends Controller
-	{
-		
-		public function plant27_2021_overallnotes_ima_ref_create(Request $request){
-			$data = array(
-				"_URI" => $request->input("_uri"),
-"_CREATOR_URI_USER" => $request->input("_creator_uri_user"),
-"_CREATION_DATE" => $request->input("_creation_date"),
-"_LAST_UPDATE_URI_USER" => $request->input("_last_update_uri_user"),
-"_LAST_UPDATE_DATE" => $request->input("_last_update_date"),
-"_DOM_AURI" => $request->input("_dom_auri"),
-"_SUB_AURI" => $request->input("_sub_auri"),
-"_TOP_LEVEL_AURI" => $request->input("_top_level_auri"),
-"PART" => $request->input("part"),
+class Plant27_2021_overallnotes_ima_ref extends Controller
+{
 
-			);
-			$response = DB::table("aggregate.PLANT27_2021_OVERALLNOTES_IMA_REF")->insert($data);
-			return response()->json($response);
-		}
-		public function plant27_2021_overallnotes_ima_ref_list(){
-			$query = DB::select('select * from aggregate."PLANT27_2021_OVERALLNOTES_IMA_REF"');
-			return response()->json($query);
-		}
+	public function plant27_2021_overallnotes_ima_ref_create(Request $request)
+	{
+		$data = array(
+			"_URI" => $request->input("_uri"),
+			"_CREATOR_URI_USER" => $request->input("_creator_uri_user"),
+			"_CREATION_DATE" => $request->input("_creation_date"),
+			"_LAST_UPDATE_URI_USER" => $request->input("_last_update_uri_user"),
+			"_LAST_UPDATE_DATE" => $request->input("_last_update_date"),
+			"_DOM_AURI" => $request->input("_dom_auri"),
+			"_SUB_AURI" => $request->input("_sub_auri"),
+			"_TOP_LEVEL_AURI" => $request->input("_top_level_auri"),
+			"PART" => $request->input("part"),
+
+		);
+		$response = DB::table("aggregate.PLANT27_2021_OVERALLNOTES_IMA_REF")->insert($data);
+		return response()->json($response);
+	}
+	public function plant27_2021_overallnotes_ima_ref_list()
+	{
+		$query = DB::select('select * from aggregate."PLANT27_2021_OVERALLNOTES_IMA_REF"');
+		return response()->json($query);
+	}
 
 	public function plant27_2021_overallnotes_ima_ref_update(Request $request, $tlauri)
 	{
 		DB::table('aggregate.PLANT27_2021_OVERALLNOTES_IMA_REF')
-		->where('_TOP_LEVEL_AURI', $tlauri)->delete();
+			->where('_TOP_LEVEL_AURI', $tlauri)->delete();
 
 		$payload = $request->except('token');
 
@@ -81,7 +84,7 @@ use Illuminate\Http\Request;
 	public function plant27_2021_overallnotes_ima_ref_delete($uri, $tlauri)
 	{
 		$deleted = DB::table("aggregate.PLANT27_2021_OVERALLNOTES_IMA_REF")
-		->where('_URI', $uri)->where('_TOP_LEVEL_AURI', $tlauri)->delete();
+			->where('_URI', $uri)->where('_TOP_LEVEL_AURI', $tlauri)->delete();
 
 		if ($deleted) {
 			return response()->json(['message' => 'Record deleted successfully.']);
@@ -89,5 +92,4 @@ use Illuminate\Http\Request;
 			return response()->json(['message' => 'Record not found.'], 404);
 		}
 	}
-	}
-			
+}
