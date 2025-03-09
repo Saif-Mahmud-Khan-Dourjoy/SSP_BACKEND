@@ -235,12 +235,16 @@ if (Request::input("token") == $token) {
 
 	Route::get('/com202021_conslttn_ttndnc_pctre_consultation_attendence_ref', '\App\Http\Controllers\Api\Aggregate\Com202021_conslttn_ttndnc_pctre_consultation_attendence_ref@com202021_conslttn_ttndnc_pctre_consultation_attendence_ref_list');
 	Route::post('/com202021_conslttn_ttndnc_pctre_consultation_attendence_ref_create', '\App\Http\Controllers\Api\Aggregate\Com202021_conslttn_ttndnc_pctre_consultation_attendence_ref@com202021_conslttn_ttndnc_pctre_consultation_attendence_ref_create');
+	Route::put('/com202021_conslttn_ttndnc_pctre_consultation_attendence_ref_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Com202021_conslttn_ttndnc_pctre_consultation_attendence_ref@com202021_conslttn_ttndnc_pctre_consultation_attendence_ref_update');
+
 
 	Route::get('/com202021_consultation_picture_bn', '\App\Http\Controllers\Api\Aggregate\Com202021_consultation_picture_bn@com202021_consultation_picture_bn_list');
 	Route::post('/com202021_consultation_picture_bn_create', '\App\Http\Controllers\Api\Aggregate\Com202021_consultation_picture_bn@com202021_consultation_picture_bn_create');
 
 	Route::get('/com202021_consultation_picture_ref', '\App\Http\Controllers\Api\Aggregate\Com202021_consultation_picture_ref@com202021_consultation_picture_ref_list');
 	Route::post('/com202021_consultation_picture_ref_create', '\App\Http\Controllers\Api\Aggregate\Com202021_consultation_picture_ref@com202021_consultation_picture_ref_create');
+	Route::put('/com202021_consultation_picture_ref_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Com202021_consultation_picture_ref@com202021_consultation_picture_ref_update');
+
 
 	Route::get('/com202021_core_audit', '\App\Http\Controllers\Api\Aggregate\Com202021_core_audit@com202021_core_audit_list');
 	Route::post('/com202021_core_audit_create', '\App\Http\Controllers\Api\Aggregate\Com202021_core_audit@com202021_core_audit_create');
@@ -625,6 +629,8 @@ if (Request::input("token") == $token) {
 
 	Route::get('/com202021_conslttn_ttndnc_pctre_consultation_notes_ref', '\App\Http\Controllers\Api\Aggregate\Com202021_conslttn_ttndnc_pctre_consultation_notes_ref@com202021_conslttn_ttndnc_pctre_consultation_notes_ref_list');
 	Route::post('/com202021_conslttn_ttndnc_pctre_consultation_notes_ref_create', '\App\Http\Controllers\Api\Aggregate\Com202021_conslttn_ttndnc_pctre_consultation_notes_ref@com202021_conslttn_ttndnc_pctre_consultation_notes_ref_create');
+	Route::put('/com202021_conslttn_ttndnc_pctre_consultation_notes_ref_update/{tlauri}', '\App\Http\Controllers\Api\Aggregate\Com202021_conslttn_ttndnc_pctre_consultation_notes_ref@com202021_conslttn_ttndnc_pctre_consultation_notes_ref_update');
+
 
 	// ----com202021_consultation_issues_others_ques----
 	Route::get('/com202021_consultation_issues_others_ques', '\App\Http\Controllers\Api\Aggregate\Com202021_consultation_issues_others_ques@com202021_consultation_issues_others_ques_list');
